@@ -73,9 +73,10 @@
     <Content Include="CSS\html5reset-1.6.1.css" />
     <Content Include="IMG\BlackCat_PSN.png" />
     <Content Include="IMG\BlackCat_PSN.svg" />
-    <None Include="index.cshtml" />
+    <None Include="home.cshtml" />
     <Content Include="CSS\PHRstyle.css" />
     <Content Include="JS\jquery-2.0.0.min.js" />
+    <Content Include="index.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
