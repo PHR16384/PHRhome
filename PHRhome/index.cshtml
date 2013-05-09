@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>PHR Homepage</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/PHRstyle.css" />
+        <script src="./JS/jquery-2.0.0.min.js"></script>
+    </head>
+    
+    <body>
+        
+        @RenderPage("_head.cshtml")
+        
+        <h1 class="C">Header 1</h1>
+        <p class="C"><img src="./IMG/BlackCat_PSN.svg" width="256" /></p>
+        <p>Current DateTime:  @DateTime.Now</p>
+        
+        @RenderPage("_foot.cshtml")
+        
+    </body>
+    
+</html>

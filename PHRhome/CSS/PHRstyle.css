@@ -1,6 +1,35 @@
-﻿@import "html5reset-1.6.1.css";
+﻿@import url("./html5reset-1.6.1.css");
 
+.C {
+    text-align: center;
+}
+
+html {
+    background-color: black;
+    color: rgb(255,255,255);
+    font: normal 16px "Consolas";
+}
 body {
     background-color: rgb(64,80,96);
-    color: rgb(255,255,255);
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: normal;
+}
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+}
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+h4 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+p {
+    font-weight: normal;
 }
