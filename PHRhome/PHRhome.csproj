@@ -69,24 +69,18 @@
     <Content Include="CSS\html5reset-1.6.1.css" />
     <Content Include="IMG\BlackCat_PSN.png" />
     <Content Include="IMG\BlackCat_PSN.svg" />
-    <Content Include="WebForm1.aspx" />
     <None Include="index.cshtml" />
     <Content Include="CSS\PHRstyle.css" />
     <Content Include="JS\jquery-2.0.0.min.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="_foot.cshtml" />
+    <Content Include="_head.cshtml" />
     <None Include="_TEMPLATE.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
