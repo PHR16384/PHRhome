@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>@Page.Title</title>
+        
+        <meta charset="utf-8" />
+        <meta name="keywords" content="@Page.mKeywords"/>
+        <meta name="description" content="@Page.mDescription"/>
+        
+        <link rel="stylesheet" type="text/css" href="@Href("~/CSS/PHRstyle.css")" />
+        <script src="@Href("~/JS/jquery-2.0.0.min.js")"></script>
+    </head>
+    
+    
+    <body>
+        
+        <header id="headmain" class="C">
+            <p>HEADER</p>
+            <p>Current DateTime:  @DateTime.UtcNow</p>
+        </header>
+        
+        @RenderBody()
+        
+        <footer id="footmain" class="C">
+            <p>&copy; @DateTime.UtcNow.Year;  Last modified 2013-May-09 14:56 UCT</p>
+        </footer>
+        
+    </body>
+    
+    
+</html>
