@@ -73,16 +73,15 @@
     <Content Include="CSS\html5reset-1.6.1.css" />
     <Content Include="IMG\BlackCat_PSN.png" />
     <Content Include="IMG\BlackCat_PSN.svg" />
-    <None Include="home.cshtml" />
+    <Content Include="index.cshtml" />
     <Content Include="CSS\PHRstyle.css" />
     <Content Include="JS\jquery-2.0.0.min.js" />
-    <Content Include="index.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="_foot.cshtml" />
     <Content Include="_head.cshtml" />
-    <None Include="_TEMPLATE.cshtml" />
+    <Content Include="_TEMPLATE.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -110,7 +109,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>12744</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:6199/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
