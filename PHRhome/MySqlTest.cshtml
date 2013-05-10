@@ -1,5 +1,6 @@
-﻿@using System;
+﻿@using System.Configuration;
 @using System.Data;
+@using System;
 
 @using MySql.Data.MySqlClient;
 @using MySql.Data;
@@ -12,6 +13,59 @@
     Page.mDescription = "PHR homepage, hosted on AppHarbor";
 }
 
+
 <h1>MySql Test Page</h1>
 <p>If you can read this, the "using MySql" command totally works.  Yay NuGet!  :D</p>
+<hr />
 
+@{
+    string sConn = ConfigurationManager.ConnectionStrings["MyDB"].ConnectionString;
+    string sName;
+    int nResults, x;
+    MySqlConnection Connect = new MySqlConnection(sConn);
+    MySqlCommand Command;
+    MySqlDataReader Results;
+    
+    try
+    {
+        Connect.Open();
+        <p>Database opened successfully.</p>
+        
+        Command = new MySqlCommand("SELECT * FROM ExampleTable;", Connect);
+        Results = Command.ExecuteReader();
+        nResults = 0;
+        
+        <table id="Results">
+            <tr>
+                @for (x = 0; x < Results.FieldCount; x++){
+                    sName = Results.GetName(x);
+                    <th>
+                        <input type="radio" id="@sName" name="fieldNames" />
+                        <label for="@sName">@sName</label>
+                    </th>
+                }
+            </tr>
+                
+            @while (Results.Read()){
+                <tr>
+                    @for (x = 0; x < Results.FieldCount; x++)
+                    {
+                        <td>@Results[x]</td>
+                    }
+                </tr>
+                nResults++;
+            }
+
+            <p>@nResults rows found.</p>
+        </table>
+
+    }
+    catch(Exception e)
+    {
+        <p id="exception">@e.Message</p>
+    }
+    finally
+    {
+        Connect.Close();
+    }
+}

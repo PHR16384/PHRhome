@@ -75,6 +75,7 @@
     <Content Include="IMG\BlackCat_PSN.svg" />
     <Content Include="index.cshtml" />
     <Content Include="CSS\PHRstyle.css" />
+    <Content Include="JS\GetTime.js" />
     <Content Include="JS\jquery-2.0.0.min.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
