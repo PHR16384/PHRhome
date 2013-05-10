@@ -20,7 +20,9 @@
             <p>Current DateTime:  @DateTime.UtcNow</p>
         </header>
         
-        @RenderBody()
+        <section id="main">
+            @RenderBody()
+        </section>
         
         <footer id="footmain" class="C">
             <p>&copy; @DateTime.UtcNow.Year;  Last modified 2013-May-09 14:56 UCT</p>
