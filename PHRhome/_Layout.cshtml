@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@{
+    Page.mKeywords = "PHR, TJK, MySQL, SQL, JavaScript, JS, jQuery, C#, test page";
+    Page.mDescription = "PHR homepage, hosted on AppHarbor";
+}
+
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     
     <head>
@@ -10,7 +15,7 @@
         
         <link rel="stylesheet" type="text/css" href="@Href("~/CSS/PHRstyle.css")" />
         <script src="@Href("~/JS/jquery-2.0.0.min.js")"></script>
-        <script src="@Href("~/JS/GetTime.js")"></script>
+        <script src="@Href("~/JS/Main.js")"></script>
     </head>
     
     
@@ -18,7 +23,6 @@
         
         <header id="headmain" class="C">
             <p>HEADER</p>
-            <p>Current DateTime:  <span id="timespan">@DateTime.UtcNow</span></p>
         </header>
         
         <section id="main">
@@ -26,7 +30,14 @@
         </section>
         
         <footer id="footmain" class="C">
-            <p>&copy; @DateTime.UtcNow.Year;  Last modified 2013-May-09 14:56 UCT</p>
+            <p>&copy; @DateTime.UtcNow.Year;  Last modified 2013/May/13 17:16 UTC</p>
+            <p>Current DateTime:  <span id="timespan">@DateTime.UtcNow</span></p>
+            
+            <p id="warnJS">WARNING:  JavaScript blocked on this site.  Please re-enable it.  I won't hack your PC, I promise.  :)</p>
+            <p id="warnScreen">
+                Viewport size: <span id="ViewportW">1000</span>px W * <span id="ViewportH">600</span>px H<br />
+                <span class="R"></span>
+            </p>
         </footer>
         
     </body>

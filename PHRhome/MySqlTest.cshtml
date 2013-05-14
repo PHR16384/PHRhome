@@ -8,13 +8,13 @@
 @{
     Layout = "~/_Layout.cshtml";
     
-    Page.Title = "MySql Test Page";
-    Page.mKeywords = "PHR, TJK, MySQL, SQL, test page";
-    Page.mDescription = "PHR homepage, hosted on AppHarbor";
+    Page.Title = "MySql Test Page - PHR Home";
+    //Page.mKeywords = "PHR, TJK, MySQL, SQL, test page";
+    //Page.mDescription = "PHR homepage, hosted on AppHarbor";
 }
 
 
-<h1>MySql Test Page</h1>
+<h1>Project List</h1>
 <p>If you can read this, the "using MySql" command totally works.  Yay NuGet!  :D</p>
 <hr />
 
@@ -31,7 +31,7 @@
         Connect.Open();
         <p>Database opened successfully.</p>
         
-        Command = new MySqlCommand("SELECT * FROM ExampleTable;", Connect);
+        Command = new MySqlCommand("SELECT * FROM ProjectList;", Connect);
         Results = Command.ExecuteReader();
         nResults = 0;
         
