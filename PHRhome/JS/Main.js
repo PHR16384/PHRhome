@@ -16,7 +16,7 @@
     
     
     function getTime() {
-        //http://stackoverflow.com/questions/1531093/how-to-get-current-date-in-javascript
+        /*  http://stackoverflow.com/questions/1531093/how-to-get-current-date-in-javascript  */
 
         var MONTH = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
