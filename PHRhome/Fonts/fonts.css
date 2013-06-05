@@ -7,7 +7,7 @@
 	src: url('./Porscha/911v2.eot?#iefix') format('embedded-opentype'),
 		 url('./Porscha/911v2.woff') format('woff'),
 		 url('./Porscha/911v2.ttf') format('truetype'),
-		 url('./Porscha/911v2.svg#Kongtext') format('svg');
+		 url('./Porscha/911v2.svg') format('svg');
 	font-style: normal;
 	font-weight: normal;
 }

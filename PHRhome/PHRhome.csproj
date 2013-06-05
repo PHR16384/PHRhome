@@ -75,6 +75,7 @@
   <ItemGroup>
     <Content Include="Fonts\fonts.css" />
     <None Include="Scripts\jquery-2.0.1.intellisense.js" />
+    <Content Include="Images\favicon.ico" />
     <Content Include="Scripts\jquery-2.0.1.js" />
     <Content Include="Scripts\jquery-2.0.1.min.js" />
     <Content Include="Shared\html5reset-1.6.1.css" />
@@ -87,7 +88,6 @@
     <Content Include="Images\bg.gif" />
     <Content Include="Images\BlackCat_PSN.png" />
     <Content Include="Images\BlackCat_PSN.svg" />
-    <Content Include="Images\favicon.svg" />
     <Content Include="Images\twitter_web_sprite_bgs.png" />
     <Content Include="Images\webtreats_black_leather.jpg" />
     <Content Include="Images\webtreats_grey_leather.jpg" />
