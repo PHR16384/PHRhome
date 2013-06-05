@@ -31,7 +31,7 @@
         var sec = Today.getUTCSeconds();
 
         if (DD < 10) { DD = '0' + DD }
-        //if (MM < 10) { MM = '0' + MM }    //is an int, no longer a string
+        //if (MM < 10) { MM = '0' + MM }    //is an index int, no longer a string
         if (hr < 10) { hr = '0' + hr }
         if (min < 10) { min = '0' + min }
         if (sec < 10) { sec = '0' + sec }
@@ -45,14 +45,10 @@
         var W = window.innerWidth;
         var H = window.innerHeight;
         
-        $WarnScr.find("#ViewportW").html(W);
-        $WarnScr.find("#ViewportH").html(H);
+        $WarnScr.html( W + "px W * " + H + "px H" );
         
         if (W < 1000 || H < 600) {
-            $WarnScr.find("span.R").html("Your viewport may be too small to view this site properly.<br />Please increase your screen resolution, or hide some of your browser's toolbars.");
-        }
-        else {
-            $WarnScr.find("span.R").html("");
+            $WarnScr.append("<br /><span class='R'>The viewport may be too small to display this site properly.  Please resize the window, hide one or more browser toolbars, or increase your screen resolution.</span>");
         }
     }
     

@@ -1,0 +1,62 @@
+﻿/* "Group" classes: */
+
+.Unknown {
+    background-color: whitesmoke;
+    color: black    !important;
+}
+
+.Nonmetal {
+    background-color: lime;
+}
+.Metal {
+    /**/
+}
+
+.Alkali {
+    background-color: darkred   !important;
+}
+.Alkaline_Earth {
+    background-color: orange    !important;
+}
+
+.Transition {
+    background-color: pink  !important;
+}
+.Coinage {
+    /**/
+}
+.Volatile {
+    /**/
+}
+
+.Post_Transition {
+    background-color: silver    !important;
+}
+
+.Metalloid {
+    background-color: forestgreen   !important;
+}
+
+.Pnictogen {
+    /**/
+}
+.Chalcogen {
+    /**/
+}
+.Halogen {
+    background-color: teal  !important;
+}
+.Noble_Gas {
+    background-color: cyan  !important;
+}
+
+
+/* State (@ 273 K) classes: */
+
+.Liquid {
+    background-color: blue !important;
+}
+.Gas {
+    background-color: rgba(255,255,255,0.4)    !important;
+}
+

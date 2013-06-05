@@ -1,6 +1,6 @@
 ﻿@{
-    Page.mKeywords = "PHR, TJK, MySQL, SQL, JavaScript, JS, jQuery, C#, ASP, .NET, Flash, test page";
-    Page.mDescription = "PHR homepage, hosted on AppHarbor";
+    Page.mKeywords = "PHR, TJK, HTML, HTML5, CSS, CSS3, MySQL, SQL, JavaScript, JS, jQuery, C#, Razor, WebPages, ASP, AJAX, .NET, Flash, test page";
+    Page.mDescription = "TJK homepage, hosted on AppHarbor";
 }
 
 <!DOCTYPE html>
@@ -13,17 +13,24 @@
         <meta name="keywords" content="@Page.mKeywords"/>
         <meta name="description" content="@Page.mDescription"/>
         
-        <link rel="stylesheet" type="text/css" href="@Href("~/CSS/PHRstyle.css")" />
-        <script src="@Href("~/JS/jquery-2.0.0.min.js")"></script>
-        <script src="@Href("~/JS/Main.js")"></script>
+        <link rel="stylesheet" type="text/css" href="@Href("~/Shared/html5reset-1.6.1.css")" />
+        <link rel="stylesheet" type="text/css" href="@Href("~/Fonts/fonts.css")" />
+        <link rel="stylesheet" type="text/css" href="@Href("~/Shared/PHRstyle.css")" />
+        <link rel="shortcut icon" href="@Href("~/Images/favicon.ico")" />
+
+        @* jQuery now used in a NuGet Package; it auto-copied the JS files into "Scripts" *@
+        <script src="@Href("~/Scripts/jquery-2.0.1.min.js")"></script>
+        <script src="@Href("~/Scripts/Main.js")"></script>
     </head>
     
     
     <body>
         
         <header id="headmain" class="C">
-            <p>HEADER</p>
+            <h1>TJK's Site</h1>
+            @RenderPage("~/_nav.cshtml")
         </header>
+
         
         <section id="main">
             @RenderBody()
@@ -34,10 +41,7 @@
             <p>Current DateTime:  <span id="timespan">@DateTime.UtcNow</span></p>
             
             <p id="warnJS">WARNING:  JavaScript blocked on this site.  Please re-enable it.  I won't hack your PC, I promise.  :)</p>
-            <p id="warnScreen">
-                Viewport size: <span id="ViewportW">1000</span>px W * <span id="ViewportH">600</span>px H<br />
-                <span class="R"></span>
-            </p>
+            <p id="warnScreen">This site is best displayed with a viewport larger than 1000px * 600px.</p>
         </footer>
         
     </body>

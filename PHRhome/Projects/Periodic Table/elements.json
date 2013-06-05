@@ -1,8 +1,11 @@
 {
-    "Hydrogen": {
+    "Elements": [ 
+	{
+		"name" : "Hydrogen",
         "symbol" : "H",
         "atomic_number" : 1,
         "atomic_weight" : 1.00794,
+        "classes" : "Nonmetal",
         "density g/cm" : "0.0708 (@ -253°C)",
         "melting_point K" : 14.01,
         "boiling_point K" : 20.28,
@@ -17,14 +20,16 @@
         "pauling_negativity" : 2.20,
         "first_ionizing kJ/mol" : 1311.3,
         "oxidation_states" : "1, -1",
-        "electronic_configuration" : "1s¹",
+        "electronic_configuration" : "1s^1",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.750
     },
-    "Helium": {
-        "symbol" : "He",
+    {
+        "name" : "Helium",
+		"symbol" : "He",
         "atomic_number" : 2,
         "atomic_weight" : 4.002602,
+        "classes" : "Nonmetal Noble_gas",
         "density g/cm" : "0.147 (@ -270°C)",
         "melting_point K" : 0.95,
         "boiling_point K" : 4.216,
@@ -43,10 +48,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.570
     },
-    "Lithium": {
+    {
+        "name" : "Lithium",
         "symbol" : "Li",
         "atomic_number" : 3,
         "atomic_weight" : 6.941,
+        "classes" : "Alkali Metal",
         "density g/cm" : 0.534,
         "melting_point K" : 553.69,
         "boiling_point K" : 1118.15,
@@ -65,10 +72,12 @@
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 3.490
     },
-    "Beryllium": {
+    {
+        "name" : "Beryllium",
         "symbol" : "Be",
         "atomic_number" : 4,
         "atomic_weight" : 9.01218,
+        "classes" : "Alkaline_Earth Metal",
         "density g/cm" : 1.848,
         "melting_point K" : 1551,
         "boiling_point K" : 3243,
@@ -87,10 +96,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.290
     },
-    "Boron": {
+    {
+        "name" : "Boron",
         "symbol" : "B",
         "atomic_number" : 5,
         "atomic_weight" : 10.811,
+        "classes" : "Metalloid",
         "density g/cm" : 2.34,
         "melting_point K" : 2573,
         "boiling_point K" : 3931,
@@ -109,10 +120,12 @@
         "lattice_structure" : "TET",
         "lattice_constant ang" : 8.730
     },
-    "Carbon": {
+    {
+        "name" : "Carbon",
         "symbol" : "C",
         "atomic_number" : 6,
         "atomic_weight" : 12.011,
+        "classes" : "Nonmetal",
         "density g/cm" : "2.25 (graphite)",
         "melting_point K" : 3820,
         "boiling_point K" : 5100,
@@ -131,10 +144,12 @@
         "lattice_structure" : "DIA",
         "lattice_constant ang" : 3.570
     },
-    "Nitrogen": {
+    {
+        "name" : "Nitrogen",
         "symbol" : "N",
         "atomic_number" : 7,
         "atomic_weight" : 14.00674,
+        "classes" : "Pnictogen Nonmetal",
         "density g/cm" : "0.808 (@ -195.8°C)",
         "melting_point K" : 63.29,
         "boiling_point K" : 77.4,
@@ -153,10 +168,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 4.039
     },
-    "Oxygen": {
+    {
+        "name" : "Oxygen",
         "symbol" : "O",
         "atomic_number" : 8,
         "atomic_weight" : 15.9994,
+        "classes" : "Chalcogen Nonmetal",
         "density g/cm" : "1.149 (@ -183°C)",
         "melting_point K" : 54.8,
         "boiling_point K" : 90.19,
@@ -175,10 +192,12 @@
         "lattice_structure" : "CUB",
         "lattice_constant ang" : 6.830
     },
-    "Fluorine": {
+    {
+        "name" : "Fluorine",
         "symbol" : "F",
         "atomic_number" : 9,
         "atomic_weight" : 18.998403,
+        "classes" : "Halogen Nonmetal",
         "density g/cm" : "1.108 (@ -189°C)",
         "melting_point K" : 53.53,
         "boiling_point K" : 85.01,
@@ -197,10 +216,12 @@
         "lattice_structure" : "MCL",
         "lattice_constant ang" : "-"
     },
-    "Neon": {
+    {
+        "name" : "Neon",
         "symbol" : "Ne",
         "atomic_number" : 10,
         "atomic_weight" : 20.1797,
+        "classes" : "Noble_Gas Nonmetal",
         "density g/cm" : "1.204 (@ -246°C)",
         "melting_point K" : 48,
         "boiling_point K" : 27.1,
@@ -219,10 +240,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 4.430
     },
-    "Sodium": {
+    {
+        "name" : "Sodium",
         "symbol" : "Na",
         "atomic_number" : 11,
         "atomic_weight" : 22.989768,
+        "classes" : "Alkali Metal",
         "density g/cm" : 0.971,
         "melting_point K" : 370.96,
         "boiling_point K" : 1156.1,
@@ -241,10 +264,12 @@
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 4.230
     },
-    "Magnesium": {
+    {
+        "name" : "Magnesium",
         "symbol" : "Mg",
         "atomic_number" : 12,
         "atomic_weight" : 24.305,
+        "classes" : "Alkaline_Earth Metal",
         "density g/cm" : 1.738,
         "melting_point K" : 922,
         "boiling_point K" : 1363,
@@ -263,10 +288,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.210
     },
-    "Aluminium": {
+    {
+        "name" : "Aluminium",
         "symbol" : "Al",
         "atomic_number" : 13,
         "atomic_weight" : 26.981539,
+        "classes" : "Post_Transition Metal",
         "density g/cm" : 2.6989,
         "melting_point K" : 933.5,
         "boiling_point K" : 2740,
@@ -285,10 +312,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 4.050
     },
-    "Silicon": {
+    {
+        "name" : "Silicon",
         "symbol" : "Si",
         "atomic_number" : 14,
         "atomic_weight" : 28.0855,
+        "classes" : "Metalloid",
         "density g/cm" : 2.33,
         "melting_point K" : 1683,
         "boiling_point K" : 2628,
@@ -307,10 +336,12 @@
         "lattice_structure" : "DIA",
         "lattice_constant ang" : 5.430
     },
-    "Phosphorus": {
+    {
+        "name" : "Phosphorus",
         "symbol" : "P",
         "atomic_number" : 15,
         "atomic_weight" : 30.973762,
+        "classes" : "Pnictogen Nonmetal",
         "density g/cm" : "1.82 (white phosphorus)",
         "melting_point K" : 317.3,
         "boiling_point K" : 553,
@@ -329,10 +360,12 @@
         "lattice_structure" : "CUB",
         "lattice_constant ang" : 7.170
     },
-    "Sulphur": {
+    {
+        "name" : "Sulphur",
         "symbol" : "S",
         "atomic_number" : 16,
         "atomic_weight" : 32.066,
+        "classes" : "Chalcogen Nonmetal",
         "density g/cm" : 2.070,
         "melting_point K" : 386,
         "boiling_point K" : 717.824,
@@ -351,10 +384,12 @@
         "lattice_structure" : "ORC",
         "lattice_constant ang" : 10.470
     },
-    "Chlorine": {
+    {
+        "name" : "Chlorine",
         "symbol" : "Cl",
         "atomic_number" : 17,
         "atomic_weight" : 35.4527,
+        "classes" : "Halogen Nonmetal",
         "density g/cm" : "1.56 (@ -33.6°C)",
         "melting_point K" : 172.2,
         "boiling_point K" : 238.6,
@@ -373,10 +408,12 @@
         "lattice_structure" : "ORC",
         "lattice_constant ang" : 6.240
     },
-    "Argon": {
+    {
+        "name" : "Argon",
         "symbol" : "Ar",
         "atomic_number" : 18,
         "atomic_weight" : 39.948,
+        "classes" : "Noble_Gas Nonmetal",
         "density g/cm" : "1.40 (@ -186°C)",
         "melting_point K" : 83.8,
         "boiling_point K" : 87.3,
@@ -395,10 +432,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 5.260
     },
-    "Potassium": {
+    {
+        "name" : "Potassium",
         "symbol" : "K",
         "atomic_number" : 19,
         "atomic_weight" : 39.0983,
+        "classes" : "Alkali Metal",
         "density g/cm" : 0.856,
         "melting_point K" : 336.8,
         "boiling_point K" : 1047,
@@ -417,10 +456,12 @@
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 5.230
     },
-    "Calcium": {
+    {
+        "name" : "Calcium",
         "symbol" : "Ca",
         "atomic_number" : 20,
         "atomic_weight" : 40.078,
+        "classes" : "Alkaline_Earth Metal",
         "density g/cm" : 1.55,
         "melting_point K" : 1112,
         "boiling_point K" : 1757,
@@ -439,10 +480,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 5.580
     },
-    "Scandium": {
+    {
+        "name" : "Scandium",
         "symbol" : "Sc",
         "atomic_number" : 21,
         "atomic_weight" : 44.95591,
+        "classes" : "Rare_Earth Transition Metal",
         "density g/cm" : 2.99,
         "melting_point K" : 1814,
         "boiling_point K" : 3104,
@@ -461,10 +504,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.310
     },
-    "Titanium": {
+    {
+        "name" : "Titanium",
         "symbol" : "Ti",
         "atomic_number" : 22,
         "atomic_weight" : 47.88,
+        "classes" : "Transition Metal",
         "density g/cm" : 4.54,
         "melting_point K" : 1933,
         "boiling_point K" : 3560,
@@ -483,10 +528,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.950
     },
-    "Vanadium": {
+    {
+        "name" : "Vanadium",
         "symbol" : "V",
         "atomic_number" : 23,
         "atomic_weight" : 50.9415,
+        "classes" : "Transition Metal",
         "density g/cm" : 6.11,
         "melting_point K" : 2160,
         "boiling_point K" : 3650,
@@ -505,10 +552,12 @@
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 3.020
     },
-    "Chromium": {
+    {
+        "name" : "Chromium",
         "symbol" : "Cr",
         "atomic_number" : 24,
         "atomic_weight" : 51.9961,
+        "classes" : "Transition Metal",
         "density g/cm" : 7.18,
         "melting_point K" : 2130,
         "boiling_point K" : 2945,
@@ -527,10 +576,12 @@
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 2.880
     },
-    "Manganese": {
+    {
+        "name" : "Manganese",
         "symbol" : "Mn",
         "atomic_number" : 25,
         "atomic_weight" : 54.93805,
+        "classes" : "Transition Metal",
         "density g/cm" : 7.21,
         "melting_point K" : 1517,
         "boiling_point K" : 2235,
@@ -549,10 +600,12 @@
         "lattice_structure" : "CUB",
         "lattice_constant ang" : 8.890
     },
-    "Iron": {
+    {
+        "name" : "Iron",
         "symbol" : "Fe",
         "atomic_number" : 26,
         "atomic_weight" : 55.847,
+        "classes" : "Transition Metal",
         "density g/cm" : 7.874,
         "melting_point K" : 1808,
         "boiling_point K" : 3023,
@@ -571,10 +624,12 @@
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 2.870
     },
-    "Cobalt": {
+    {
+        "name" : "Cobalt",
         "symbol" : "Co",
         "atomic_number" : 27,
         "atomic_weight" : 58.9332,
+        "classes" : "Transition Metal",
         "density g/cm" : 8.9,
         "melting_point K" : 1768,
         "boiling_point K" : 3143,
@@ -593,10 +648,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.510
     },
-    "Nickel": {
+    {
+        "name" : "Nickel",
         "symbol" : "Ni",
         "atomic_number" : 28,
         "atomic_weight" : 58.6934,
+        "classes" : "Transition Metal",
         "density g/cm" : 8.902,
         "melting_point K" : 1726,
         "boiling_point K" : 3005,
@@ -615,10 +672,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 3.520
     },
-    "Copper": {
+    {
+        "name" : "Copper",
         "symbol" : "Cu",
         "atomic_number" : 29,
         "atomic_weight" : 63.546,
+        "classes" : "Coinage Transition Metal",
         "density g/cm" : 8.96,
         "melting_point K" : 1356.6,
         "boiling_point K" : 2840,
@@ -637,10 +696,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 3.610
     },
-    "Zinc": {
+    {
+        "name" : "Zinc",
         "symbol" : "Zn",
         "atomic_number" : 30,
         "atomic_weight" : 65.39,
+        "classes" : "Volatile Transition Metal",
         "density g/cm" : 7.133,
         "melting_point K" : 692.73,
         "boiling_point K" : 1180,
@@ -659,10 +720,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.660
     },
-    "Gallium": {
+    {
+        "name" : "Gallium",
         "symbol" : "Ga",
         "atomic_number" : 31,
         "atomic_weight" : 69.723,
+        "classes" : "Post_Transition Metal",
         "density g/cm" : 5.91,
         "melting_point K" : 302.93,
         "boiling_point K" : 2676,
@@ -681,10 +744,12 @@
         "lattice_structure" : "ORC",
         "lattice_constant ang" : 4.510
     },
-    "Germanium": {
+    {
+        "name" : "Germanium",
         "symbol" : "Ge",
         "atomic_number" : 32,
         "atomic_weight" : 72.61,
+        "classes" : "Metalloid",
         "density g/cm" : 5.323,
         "melting_point K" : 1210.6,
         "boiling_point K" : 3103,
@@ -703,10 +768,12 @@
         "lattice_structure" : "DIA",
         "lattice_constant ang" : 5.660
     },
-    "Arsenic": {
+    {
+        "name" : "Arsenic",
         "symbol" : "As",
         "atomic_number" : 33,
         "atomic_weight" : 74.92159,
+        "classes" : "Pnictogen Metalloid",
         "density g/cm" : "5.73 (grey arsenic)",
         "melting_point K" : 1090,
         "boiling_point K" : 876,
@@ -725,10 +792,12 @@
         "lattice_structure" : "RHL",
         "lattice_constant ang" : 4.130
     },
-    "Selenium": {
+    {
+        "name" : "Selenium",
         "symbol" : "Se",
         "atomic_number" : 34,
         "atomic_weight" : 78.96,
+        "classes" : "Chalcogen Nonmetal",
         "density g/cm" : 4.79,
         "melting_point K" : 490,
         "boiling_point K" : 958.1,
@@ -747,10 +816,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 4.360
     },
-    "Bromine": {
+    {
+        "name" : "Bromine",
         "symbol" : "Br",
         "atomic_number" : 35,
         "atomic_weight" : 79.904,
+        "classes" : "Halogen Nonmetal",
         "density g/cm" : 3.12,
         "melting_point K" : 265.9,
         "boiling_point K" : 331.9,
@@ -769,10 +840,12 @@
         "lattice_structure" : "ORC",
         "lattice_constant ang" : 6.670
     },
-    "Krypton": {
+    {
+        "name" : "Krypton",
         "symbol" : "Kr",
         "atomic_number" : 36,
         "atomic_weight" : 83.8,
+        "classes" : "Noble_Gas Nonmetal",
         "density g/cm" : "2.155 (@ -153°C)",
         "melting_point K" : 116.6,
         "boiling_point K" : 120.85,
@@ -791,10 +864,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 5.720
     },
-    "Rubidium": {
+    {
+        "name" : "Rubidium",
         "symbol" : "Rb",
         "atomic_number" : 37,
         "atomic_weight" : 85.4678,
+        "classes" : "Alkali Metal",
         "density g/cm" : 1.532,
         "melting_point K" : 312.2,
         "boiling_point K" : 961,
@@ -813,10 +888,12 @@
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 5.590
     },
-    "Strontium": {
+    {
+        "name" : "Strontium",
         "symbol" : "Sr",
         "atomic_number" : 38,
         "atomic_weight" : 87.62,
+        "classes" : "Alkaline_Earth Metal",
         "density g/cm" : 2.54,
         "melting_point K" : 1042,
         "boiling_point K" : 1657,
@@ -835,10 +912,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 6.080
     },
-    "Yttrium": {
+    {
+        "name" : "Yttrium",
         "symbol" : "Y",
         "atomic_number" : 39,
         "atomic_weight" : 88.90585,
+        "classes" : "Rare_Earth Transition Metal",
         "density g/cm" : 4.47,
         "melting_point K" : 1795,
         "boiling_point K" : 3611,
@@ -857,10 +936,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.650
     },
-    "Zirconium": {
+    {
+        "name" : "Zirconium",
         "symbol" : "Zr",
         "atomic_number" : 40,
         "atomic_weight" : 91.224,
+        "classes" : "Transition Metal",
         "density g/cm" : 6.506,
         "melting_point K" : 2125,
         "boiling_point K" : 4650,
@@ -879,10 +960,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.230
     },
-    "Niobium": {
+    {
+        "name" : "Niobium",
         "symbol" : "Nb",
         "atomic_number" : 41,
         "atomic_weight" : 92.90638,
+        "classes" : "Transition Metal",
         "density g/cm" : 8.57,
         "melting_point K" : 2741,
         "boiling_point K" : 5015,
@@ -901,10 +984,12 @@
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 3.300
     },
-    "Molybdenum": {
+    {
+        "name" : "Molybdenum",
         "symbol" : "Mo",
         "atomic_number" : 42,
         "atomic_weight" : 95.94,
+        "classes" : "Transition Metal",
         "density g/cm" : 10.22,
         "melting_point K" : 2890,
         "boiling_point K" : 4885,
@@ -923,10 +1008,12 @@
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 3.150
     },
-    "Technetium": {
+    {
+        "name" : "Technetium",
         "symbol" : "Tc",
         "atomic_number" : 43,
         "atomic_weight" : 97.9072,
+        "classes" : "Transition Metal",
         "density g/cm" : 11.5,
         "melting_point K" : 2445,
         "boiling_point K" : 5150,
@@ -945,10 +1032,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.740
     },
-    "Ruthenium": {
+    {
+        "name" : "Ruthenium",
         "symbol" : "Ru",
         "atomic_number" : 44,
         "atomic_weight" : 101.07,
+        "classes" : "Transition Metal",
         "density g/cm" : 12.41,
         "melting_point K" : 2583,
         "boiling_point K" : 4173,
@@ -967,10 +1056,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.700
     },
-    "Rhodium": {
+    {
+        "name" : "Rhodium",
         "symbol" : "Rh",
         "atomic_number" : 45,
         "atomic_weight" : 102.9055,
+        "classes" : "Transition Metal",
         "density g/cm" : 12.41,
         "melting_point K" : 2239,
         "boiling_point K" : 4000,
@@ -989,10 +1080,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 3.800
     },
-    "Palladium": {
+    {
+        "name" : "Palladium",
         "symbol" : "Pd",
         "atomic_number" : 46,
         "atomic_weight" : 106.42,
+        "classes" : "Transition Metal",
         "density g/cm" : 12.02,
         "melting_point K" : 1825,
         "boiling_point K" : 3413,
@@ -1011,10 +1104,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 3.890
     },
-    "Silver": {
+    {
+        "name" : "Silver",
         "symbol" : "Ag",
         "atomic_number" : 47,
         "atomic_weight" : 107.8682,
+        "classes" : "Coinage Transition Metal",
         "density g/cm" : 10.5,
         "melting_point K" : 1235.1,
         "boiling_point K" : 2485,
@@ -1033,10 +1128,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 4.090
     },
-    "Cadmium": {
+    {
+        "name" : "Cadmium",
         "symbol" : "Cd",
         "atomic_number" : 48,
         "atomic_weight" : 112.411,
+        "classes" : "Volatile Transition Metal",
         "density g/cm" : 8.65,
         "melting_point K" : 594.1,
         "boiling_point K" : 1038,
@@ -1055,10 +1152,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.980
     },
-    "Indium": {
+    {
+        "name" : "Indium",
         "symbol" : "In",
         "atomic_number" : 49,
         "atomic_weight" : 114.818,
+        "classes" : "Post_Transition Metal",
         "density g/cm" : 7.31,
         "melting_point K" : 429.32,
         "boiling_point K" : 2353,
@@ -1077,10 +1176,12 @@
         "lattice_structure" : "TET",
         "lattice_constant ang" : 4.590
     },
-    "Tin": {
+    {
+        "name" : "Tin",
         "symbol" : "Sn",
         "atomic_number" : 50,
         "atomic_weight" : 118.71,
+        "classes" : "Post_Transition Metal",
         "density g/cm" : 7.31,
         "melting_point K" : 505.1,
         "boiling_point K" : 2543,
@@ -1099,10 +1200,12 @@
         "lattice_structure" : "TET",
         "lattice_constant ang" : 5.820
     },
-    "Antimony": {
+    {
+        "name" : "Antimony",
         "symbol" : "Sb",
         "atomic_number" : 51,
         "atomic_weight" : 121.760,
+        "classes" : "Pnictogen Metalloid",
         "density g/cm" : 6.691,
         "melting_point K" : 903.9,
         "boiling_point K" : 1908,
@@ -1121,10 +1224,12 @@
         "lattice_structure" : "RHL",
         "lattice_constant ang" : 4.510
     },
-    "Tellurium": {
+    {
+        "name" : "Tellurium",
         "symbol" : "Te",
         "atomic_number" : 52,
         "atomic_weight" : 127.6,
+        "classes" : "Chalcogen Metalloid",
         "density g/cm" : 6.24,
         "melting_point K" : 722.7,
         "boiling_point K" : 1263,
@@ -1143,10 +1248,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 4.450
     },
-    "Iodine": {
+    {
+        "name" : "Iodine",
         "symbol" : "I",
         "atomic_number" : 53,
         "atomic_weight" : 126.90447,
+        "classes" : "Halogen Nonmetal",
         "density g/cm" : 4.93,
         "melting_point K" : 386.7,
         "boiling_point K" : 457.5,
@@ -1165,10 +1272,12 @@
         "lattice_structure" : "ORC",
         "lattice_constant ang" : 7.720
     },
-    "Xenon": {
+    {
+        "name" : "Xenon",
         "symbol" : "Xe",
         "atomic_number" : 54,
         "atomic_weight" : 131.29,
+        "classes" : "Noble_Gas Nonmetal",
         "density g/cm" : "3.52 (@ -109°C)",
         "melting_point K" : 161.3,
         "boiling_point K" : 166.1,
@@ -1187,10 +1296,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 6.200
     },
-    "Cesium": {
+    {
+        "name" : "Cesium",
         "symbol" : "Cs",
         "atomic_number" : 55,
         "atomic_weight" : 132.90543,
+        "classes" : "Alkali Metal",
         "density g/cm" : 1.873,
         "melting_point K" : 301.6,
         "boiling_point K" : 951.6,
@@ -1209,10 +1320,12 @@
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 6.050
     },
-    "Barium": {
+    {
+        "name" : "Barium",
         "symbol" : "Ba",
         "atomic_number" : 56,
         "atomic_weight" : 137.327,
+        "classes" : "Alkaline_Earth Metal",
         "density g/cm" : 3.5,
         "melting_point K" : 1002,
         "boiling_point K" : 1910,
@@ -1231,10 +1344,12 @@
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 5.020
     },
-    "Lanthanum": {
+    {
+        "name" : "Lanthanum",
         "symbol" : "La",
         "atomic_number" : 57,
         "atomic_weight" : 138.9055,
+        "classes" : "Rare_Earth Lanthanide Transition Metal",
         "density g/cm" : 6.15,
         "melting_point K" : 1194,
         "boiling_point K" : 3730,
@@ -1253,10 +1368,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.750
     },
-    "Cerium": {
+    {
+        "name" : "Cerium",
         "symbol" : "Ce",
         "atomic_number" : 58,
         "atomic_weight" : 140.115,
+        "classes" : "Rare_Earth Lanthanide Transition Metal",
         "density g/cm" : 6.757,
         "melting_point K" : 1072,
         "boiling_point K" : 3699,
@@ -1275,10 +1392,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 5.160
     },
-    "Praseodymium": {
+    {
+        "name" : "Praseodymium",
         "symbol" : "Pr",
         "atomic_number" : 59,
         "atomic_weight" : 140.90765,
+        "classes" : "Rare_Earth Lanthanide Transition Metal",
         "density g/cm" : 6.773,
         "melting_point K" : 1204,
         "boiling_point K" : 3785,
@@ -1297,10 +1416,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.670
     },
-    "Neodymium": {
+    {
+        "name" : "Neodymium",
         "symbol" : "Nd",
         "atomic_number" : 60,
         "atomic_weight" : 144.24,
+        "classes" : "Rare_Earth Lanthanide Transition Metal",
         "density g/cm" : 7.007,
         "melting_point K" : 1294,
         "boiling_point K" : 3341,
@@ -1319,10 +1440,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.660
     },
-    "Promethium": {
+    {
+        "name" : "Promethium",
         "symbol" : "Pm",
         "atomic_number" : 61,
         "atomic_weight" : 144.9127,
+        "classes" : "Rare_Earth Lanthanide Transition Metal",
         "density g/cm" : 7.2,
         "melting_point K" : 1441,
         "boiling_point K" : 3000,
@@ -1341,10 +1464,12 @@
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Samarium": {
+    {
+        "name" : "Samarium",
         "symbol" : "Sm",
         "atomic_number" : 62,
         "atomic_weight" : 150.36,
+        "classes" : "Rare_Earth Lanthanide Transition Metal",
         "density g/cm" : 7.520,
         "melting_point K" : 1350,
         "boiling_point K" : 2064,
@@ -1363,10 +1488,12 @@
         "lattice_structure" : "RHL",
         "lattice_constant ang" : 9.000
     },
-    "Europium": {
+    {
+        "name" : "Europium",
         "symbol" : "Eu",
         "atomic_number" : 63,
         "atomic_weight" : 151.965,
+        "classes" : "Rare_Earth Lanthanide Transition Metal",
         "density g/cm" : 5.243,
         "melting_point K" : 1095,
         "boiling_point K" : 1870,
@@ -1385,10 +1512,12 @@
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 4.610
     },
-    "Gadolinium": {
+    {
+        "name" : "Gadolinium",
         "symbol" : "Gd",
         "atomic_number" : 64,
         "atomic_weight" : 157.25,
+        "classes" : "Rare_Earth Lanthanide Transition Metal",
         "density g/cm" : 7.900,
         "melting_point K" : 1586,
         "boiling_point K" : 3539,
@@ -1407,10 +1536,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.640
     },
-    "Terbium": {
+    {
+        "name" : "Terbium",
         "symbol" : "Tb",
         "atomic_number" : 65,
         "atomic_weight" : 158.92534,
+        "classes" : "Rare_Earth Lanthanide Transition Metal",
         "density g/cm" : 8.229,
         "melting_point K" : 1629,
         "boiling_point K" : 3296,
@@ -1429,10 +1560,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.600
     },
-    "Dysprosium": {
+    {
+        "name" : "Dysprosium",
         "symbol" : "Dy",
         "atomic_number" : 66,
         "atomic_weight" : 162.50,
+        "classes" : "Rare_Earth Lanthanide Transition Metal",
         "density g/cm" : 8.55,
         "melting_point K" : 1685,
         "boiling_point K" : 2835,
@@ -1451,10 +1584,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.590
     },
-    "Holmium": {
+    {
+        "name" : "Holmium",
         "symbol" : "Ho",
         "atomic_number" : 67,
         "atomic_weight" : 164.93032,
+        "classes" : "Rare_Earth Lanthanide Transition Metal",
         "density g/cm" : 8.795,
         "melting_point K" : 1747,
         "boiling_point K" : 2968,
@@ -1473,10 +1608,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.580
     },
-    "Erbium": {
+    {
+        "name" : "Erbium",
         "symbol" : "Er",
         "atomic_number" : 68,
         "atomic_weight" : 167.26,
+        "classes" : "Rare_Earth Lanthanide Transition Metal",
         "density g/cm" : 9.06,
         "melting_point K" : 1802,
         "boiling_point K" : 3136,
@@ -1495,10 +1632,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.560
     },
-    "Thulium": {
+    {
+        "name" : "Thulium",
         "symbol" : "Tm",
         "atomic_number" : 69,
         "atomic_weight" : 168.93421,
+        "classes" : "Rare_Earth Lanthanide Transition Metal",
         "density g/cm" : 9.321,
         "melting_point K" : 1818,
         "boiling_point K" : 2220,
@@ -1517,10 +1656,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.540
     },
-    "Ytterbium": {
+    {
+        "name" : "Ytterbium",
         "symbol" : "Yb",
         "atomic_number" : 70,
         "atomic_weight" : 173.04,
+        "classes" : "Rare_Earth Lanthanide Transition Metal",
         "density g/cm" : 6.9654,
         "melting_point K" : 1097,
         "boiling_point K" : 1466,
@@ -1539,10 +1680,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 5.490
     },
-    "Lutetium": {
+    {
+        "name" : "Lutetium",
         "symbol" : "Lu",
         "atomic_number" : 71,
         "atomic_weight" : 174.967,
+        "classes" : "Rare_Earth Lanthanide Transition Metal",
         "density g/cm" : 9.8404,
         "melting_point K" : 1936,
         "boiling_point K" : 3668,
@@ -1561,10 +1704,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.510
     },
-    "Hafnium": {
+    {
+        "name" : "Hafnium",
         "symbol" : "Hf",
         "atomic_number" : 72,
         "atomic_weight" : 178.49,
+        "classes" : "Transition Metal",
         "density g/cm" : 13.31,
         "melting_point K" : 2503,
         "boiling_point K" : 5470,
@@ -1583,10 +1728,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.200
     },
-    "Tantalum": {
+    {
+        "name" : "Tantalum",
         "symbol" : "Ta",
         "atomic_number" : 73,
         "atomic_weight" : 180.9479,
+        "classes" : "Transition Metal",
         "density g/cm" : 16.654,
         "melting_point K" : 3269,
         "boiling_point K" : 5698,
@@ -1605,10 +1752,12 @@
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 3.310
     },
-    "Tungsten": {
+    {
+        "name" : "Tungsten",
         "symbol" : "W",
         "atomic_number" : 74,
         "atomic_weight" : 183.84,
+        "classes" : "Transition Metal",
         "density g/cm" : 19.3,
         "melting_point K" : 3680,
         "boiling_point K" : 5930,
@@ -1627,10 +1776,12 @@
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 3.160
     },
-    "Rhenium": {
+    {
+        "name" : "Rhenium",
         "symbol" : "Re",
         "atomic_number" : 75,
         "atomic_weight" : 186.207,
+        "classes" : "Transition Metal",
         "density g/cm" : 21.02,
         "melting_point K" : 3453,
         "boiling_point K" : 5900,
@@ -1649,10 +1800,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.760
     },
-    "Osmium": {
+    {
+        "name" : "Osmium",
         "symbol" : "Os",
         "atomic_number" : 76,
         "atomic_weight" : 190.23,
+        "classes" : "Transition Metal",
         "density g/cm" : 22.57,
         "melting_point K" : 3327,
         "boiling_point K" : 5300,
@@ -1671,10 +1824,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.740
     },
-    "Iridium": {
+    {
+        "name" : "Iridium",
         "symbol" : "Ir",
         "atomic_number" : 77,
         "atomic_weight" : 192.22,
+        "classes" : "Transition Metal",
         "density g/cm" : 22.42,
         "melting_point K" : 2683,
         "boiling_point K" : 4403,
@@ -1693,10 +1848,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 3.840
     },
-    "Platinum": {
+    {
+        "name" : "Platinum",
         "symbol" : "Pt",
         "atomic_number" : 78,
         "atomic_weight" : 195.08,
+        "classes" : "Transition Metal",
         "density g/cm" : 21.45,
         "melting_point K" : 2045,
         "boiling_point K" : 4100,
@@ -1715,10 +1872,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 3.920
     },
-    "Gold": {
+    {
+        "name" : "Gold",
         "symbol" : "Au",
         "atomic_number" : 79,
         "atomic_weight" : 196.96654,
+        "classes" : "Coinage Transition Metal",
         "density g/cm" : 19.3,
         "melting_point K" : 1337.58,
         "boiling_point K" : 3080,
@@ -1737,10 +1896,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 4.080
     },
-    "Mercury": {
+    {
+        "name" : "Mercury",
         "symbol" : "Hg",
         "atomic_number" : 80,
         "atomic_weight" : 200.59,
+        "classes" : "Volatile Transition Metal",
         "density g/cm" : "13.546 (@ +20°C)",
         "melting_point K" : 234.28,
         "boiling_point K" : 629.73,
@@ -1759,10 +1920,12 @@
         "lattice_structure" : "RHL",
         "lattice_constant ang" : 2.990
     },
-    "Thallium": {
+    {
+        "name" : "Thallium",
         "symbol" : "Tl",
         "atomic_number" : 81,
         "atomic_weight" : 204.3833,
+        "classes" : "Post_Transition Metal",
         "density g/cm" : 11.85,
         "melting_point K" : 576.6,
         "boiling_point K" : 1730,
@@ -1781,10 +1944,12 @@
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.460
     },
-    "Lead": {
+    {
+        "name" : "Lead",
         "symbol" : "Pb",
         "atomic_number" : 82,
         "atomic_weight" : 207.2,
+        "classes" : "Post_Transition Metal",
         "density g/cm" : 11.35,
         "melting_point K" : 600.65,
         "boiling_point K" : 2013,
@@ -1803,10 +1968,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 4.950
     },
-    "Bismuth": {
+    {
+        "name" : "Bismuth",
         "symbol" : "Bi",
         "atomic_number" : 83,
         "atomic_weight" : 208.98037,
+        "classes" : "Pnictogen Post_Transition Metal",
         "density g/cm" : 9.747,
         "melting_point K" : 544.5,
         "boiling_point K" : 1883,
@@ -1825,10 +1992,12 @@
         "lattice_structure" : "RHL",
         "lattice_constant ang" : 4.750
     },
-    "Polonium": {
+    {
+        "name" : "Polonium",
         "symbol" : "Po",
         "atomic_number" : 84,
         "atomic_weight" : 208.9824,
+        "classes" : "Chalcogen Post_Transition Metal",
         "density g/cm" : 9.32,
         "melting_point K" : 527,
         "boiling_point K" : 1235,
@@ -1847,10 +2016,12 @@
         "lattice_structure" : "SC",
         "lattice_constant ang" : 3.350
     },
-    "Astatine": {
+    {
+        "name" : "Astatine",
         "symbol" : "At",
         "atomic_number" : 85,
         "atomic_weight" : 209.9871,
+        "classes" : "Halogen Nonmetal",
         "density g/cm" : "n/a",
         "melting_point K" : 575,
         "boiling_point K" : 610,
@@ -1869,10 +2040,12 @@
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Radon": {
+    {
+        "name" : "Radon",
         "symbol" : "Rn",
         "atomic_number" : 86,
         "atomic_weight" : 222.0176,
+        "classes" : "Nobel_Gas Nonmetal",
         "density g/cm" : "4.4 (@ -62°C)",
         "melting_point K" : 202,
         "boiling_point K" : 211.4,
@@ -1891,10 +2064,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : "n/a"
     },
-    "Francium": {
+    {
+        "name" : "Francium",
         "symbol" : "Fr",
         "atomic_number" : 87,
         "atomic_weight" : 223.0197,
+        "classes" : "Alkali Metal",
         "density g/cm" : "n/a",
         "melting_point K" : 300,
         "boiling_point K" : 950,
@@ -1913,10 +2088,12 @@
         "lattice_structure" : "BCC",
         "lattice_constant ang" : "n/a"
     },
-    "Radium": {
+    {
+        "name" : "Radium",
         "symbol" : "Ra",
         "atomic_number" : 88,
         "atomic_weight" : 226.0254,
+        "classes" : "Alkaline_Earth Metal",
         "density g/cm" : "(5.5)",
         "melting_point K" : 973,
         "boiling_point K" : 1413,
@@ -1935,10 +2112,12 @@
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Actinium": {
+    {
+        "name" : "Actinium",
         "symbol" : "Ac",
         "atomic_number" : 89,
         "atomic_weight" : 227.0278,
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : 1320,
         "boiling_point K" : 3470,
@@ -1957,10 +2136,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 5.310
     },
-    "Thorium": {
+    {
+        "name" : "Thorium",
         "symbol" : "Th",
         "atomic_number" : 90,
         "atomic_weight" : 232.0381,
+        "classes" : "Unknown",
         "density g/cm" : 11.78,
         "melting_point K" : 2028,
         "boiling_point K" : 5060,
@@ -1979,10 +2160,12 @@
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 5.080
     },
-    "Protactinium": {
+    {
+        "name" : "Protactinium",
         "symbol" : "Pa",
         "atomic_number" : 91,
         "atomic_weight" : 231.03588,
+        "classes" : "Unknown",
         "density g/cm" : 15.37,
         "melting_point K" : 2113,
         "boiling_point K" : 4300,
@@ -2001,10 +2184,12 @@
         "lattice_structure" : "TET",
         "lattice_constant ang" : 3.920
     },
-    "Uranium": {
+    {
+        "name" : "Uranium",
         "symbol" : "U",
         "atomic_number" : 92,
         "atomic_weight" : 238.0289,
+        "classes" : "Unknown",
         "density g/cm" : 19.05,
         "melting_point K" : 1405.5,
         "boiling_point K" : 4018,
@@ -2023,10 +2208,12 @@
         "lattice_structure" : "ORC",
         "lattice_constant ang" : 2.850
     },
-    "Neptunium": {
+    {
+        "name" : "Neptunium",
         "symbol" : "Np",
         "atomic_number" : 93,
         "atomic_weight" : 237.048,
+        "classes" : "Unknown",
         "density g/cm" : 20.25,
         "melting_point K" : 913,
         "boiling_point K" : 4175,
@@ -2045,10 +2232,12 @@
         "lattice_structure" : "ORC",
         "lattice_constant ang" : 4.720
     },
-    "Plutonium": {
+    {
+        "name" : "Plutonium",
         "symbol" : "Pu",
         "atomic_number" : 94,
         "atomic_weight" : 244.0642,
+        "classes" : "Unknown",
         "density g/cm" : 19.84,
         "melting_point K" : 914,
         "boiling_point K" : 3505,
@@ -2067,10 +2256,12 @@
         "lattice_structure" : "MCL",
         "lattice_constant ang" : "n/a"
     },
-    "Americium": {
+    {
+        "name" : "Americium",
         "symbol" : "Am",
         "atomic_number" : 95,
         "atomic_weight" : 243.0614,
+        "classes" : "Unknown",
         "density g/cm" : 13.67,
         "melting_point K" : 1267,
         "boiling_point K" : 2880,
@@ -2089,10 +2280,12 @@
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Curium": {
+    {
+        "name" : "Curium",
         "symbol" : "Cm",
         "atomic_number" : 96,
         "atomic_weight" : 247.0703,
+        "classes" : "Unknown",
         "density g/cm" : 13.51,
         "melting_point K" : 1340,
         "boiling_point K" : "n/a",
@@ -2111,10 +2304,12 @@
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/A"
     },
-    "Berkelium": {
+    {
+        "name" : "Berkelium",
         "symbol" : "Bk",
         "atomic_number" : 97,
         "atomic_weight" : 247.0703,
+        "classes" : "Unknown",
         "density g/cm" : 13.25,
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2133,10 +2328,12 @@
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Californium": {
+    {
+        "name" : "Californium",
         "symbol" : "Cf",
         "atomic_number" : 98,
         "atomic_weight" : 251.0796,
+        "classes" : "Unknown",
         "density g/cm" : 15.1,
         "melting_point K" : 900,
         "boiling_point K" : "n/a",
@@ -2155,10 +2352,12 @@
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Einsteinium": {
+    {
+        "name" : "Einsteinium",
         "symbol" : "Es",
         "atomic_number" : 99,
         "atomic_weight" : 252.083,
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : 1130,
@@ -2177,10 +2376,12 @@
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Fermium": {
+    {
+        "name" : "Fermium",
         "symbol" : "Fm",
         "atomic_number" : 100,
         "atomic_weight" : 257.0951,
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : 1800,
         "boiling_point K" : "n/a",
@@ -2199,10 +2400,12 @@
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Mendelevium": {
+    {
+        "name" : "Mendelevium",
         "symbol" : "Md",
         "atomic_number" : 101,
         "atomic_weight" : 258.1,
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : 1100,
         "boiling_point K" : "n/a",
@@ -2221,10 +2424,12 @@
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Nobelium": {
+    {
+        "name" : "Nobelium",
         "symbol" : "No",
         "atomic_number" : 102,
         "atomic_weight" : 259.1009,
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : 1100,
         "boiling_point K" : "n/a",
@@ -2243,10 +2448,12 @@
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Lawrencium": {
+    {
+        "name" : "Lawrencium",
         "symbol" : "Lr",
         "atomic_number" : 103,
         "atomic_weight" : 262.11,
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2265,10 +2472,12 @@
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Rutherfordium": {
+    {
+        "name" : "Rutherfordium",
         "symbol" : "Rf",
         "atomic_number" : 104,
-        "atomic_weight" : "[261]",
+        "atomic_weight" : "[267]",
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2283,14 +2492,16 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "-",
-        "electronic_configuration" : "[Rn]5f¹6d²7s²",
+        "electronic_configuration" : "[Rn] 5f^14 6d^2 7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Dubnium": {
+    {
+        "name" : "Dubnium",
         "symbol" : "Db",
         "atomic_number" : 105,
-        "atomic_weight" : "[262]",
+        "atomic_weight" : "[268]",
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2305,14 +2516,16 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "-",
-        "electronic_configuration" : "[Rn]5f¹6d³6s²",
+        "electronic_configuration" : "[Rn] 5f^14 6d^3 7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Seaborgium": {
+    {
+        "name" : "Seaborgium",
         "symbol" : "Sg",
         "atomic_number" : 106,
-        "atomic_weight" : "[266]",
+        "atomic_weight" : "[269]",
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2327,14 +2540,16 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "-",
-        "electronic_configuration" : "[Rn]5f¹6d¹7s²",
+        "electronic_configuration" : "[Rn] 5f^14 6d^4 7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Bohrium": {
+    {
+        "name" : "Bohrium",
         "symbol" : "Bh",
         "atomic_number" : 107,
-        "atomic_weight" : "[264]",
+        "atomic_weight" : "[270]",
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2349,14 +2564,16 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn] 5f^14 6d^5 7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Hassium": {
+    {
+        "name" : "Hassium",
         "symbol" : "Hs",
         "atomic_number" : 108,
         "atomic_weight" : "[269]",
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2371,14 +2588,16 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn] 5f^14 6d^6 7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Meitnerium": {
+    {
+        "name" : "Meitnerium",
         "symbol" : "Mt",
         "atomic_number" : 109,
-        "atomic_weight" : "[268]",
+        "atomic_weight" : "[278]",
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2393,14 +2612,16 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn] 5f^14 6d^7 7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Darmstadtium": {
+    {
+        "name" : "Darmstadtium",
         "symbol" : "Ds",
         "atomic_number" : 110,
-        "atomic_weight" : "[271]",
+        "atomic_weight" : "[281]",
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2415,14 +2636,16 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn] 5f^14 6d^8 7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Roentgenium": {
+    {
+        "name" : "Roentgenium",
         "symbol" : "Rg",
         "atomic_number" : 111,
-        "atomic_weight" : "[272]",
+        "atomic_weight" : "[281]",
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2437,14 +2660,16 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn] 5f^14 6d^9 7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Ununbium": {
-        "symbol" : "Uub",
+    {
+        "name" : "Copernicium",
+        "symbol" : "Cn",
         "atomic_number" : 112,
-        "atomic_weight" : "[277]",
+        "atomic_weight" : "[285]",
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2459,14 +2684,16 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn] 5f^14 6d^10 7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Ununtrium": {
+    {
+        "name" : "Ununtrium",
         "symbol" : "Uut",
         "atomic_number" : 113,
-        "atomic_weight" : "n/a",
+        "atomic_weight" : "[286]",
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2481,14 +2708,16 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn] 5f^14 6d^10 7s^2 7p^1",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Ununquadium": {
-        "symbol" : "Uuq",
+    {
+        "name" : "Flerovium",
+        "symbol" : "Fl",
         "atomic_number" : 114,
         "atomic_weight" : "[289]",
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2503,14 +2732,16 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn] 5f^14 6d^10 7s^2 7p^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Ununpentium": {
+    {
+        "name" : "Ununpentium",
         "symbol" : "Uup",
         "atomic_number" : 115,
-        "atomic_weight" : "n/a",
+        "atomic_weight" : "[288]",
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2525,14 +2756,16 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn] 5f^14 6d^10 7s^2 7p^3",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Ununhexium": {
-        "symbol" : "Uuh",
+    {
+        "name" : "Livermorium",
+        "symbol" : "Lv",
         "atomic_number" : 116,
-        "atomic_weight" : "n/a",
+        "atomic_weight" : "[293]",
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2547,14 +2780,16 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn] 5f^14 6d^10 7s^2 7p^4",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Ununseptium": {
+    {
+        "name" : "Ununseptium",
         "symbol" : "Uus",
         "atomic_number" : 117,
-        "atomic_weight" : "n/a",
+        "atomic_weight" : "[294]",
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2569,14 +2804,16 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn] 5f^14 6d^10 7s^2 7p^5",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
-    "Ununoctium": {
+    {
+        "name" : "Ununoctium",
         "symbol" : "Uuo",
         "atomic_number" : 118,
-        "atomic_weight" : "n/a",
+        "atomic_weight" : "[294]",
+        "classes" : "Unknown",
         "density g/cm" : "n/a",
         "melting_point K" : "n/a",
         "boiling_point K" : "n/a",
@@ -2591,8 +2828,10 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "n/a",
-        "electronic_configuration" : "n/a",
+        "electronic_configuration" : "[Rn] 5f^14 6d^10 7s^2 7p^6",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     }
+	
+	]
 }

@@ -1,0 +1,2 @@
+- emulate Wii Menu
+- grab NP data via JSON/XML?
