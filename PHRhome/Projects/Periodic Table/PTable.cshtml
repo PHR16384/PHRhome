@@ -18,50 +18,6 @@
 
 <script type="text/javascript" src="./PTable.js"></script>
 
-<style>
-    div#PTable {
-        background-color: rgba(0,255,0,0.2);
-        /*display: -moz-box;*/
-    }
-        
-    .element {
-        background-image: -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(96,96,96,1) 100%);
-        border: 0px solid white;
-        display: inline-block;
-        /*font-size: 0.8em;*/
-        height: 80px;
-        margin: 2px;
-        /*overflow: hidden;*/
-        padding: 2px;
-        text-overflow: ellipsis;
-        width: 76px;
-    }
-        .element p {
-            /*display: block;*/
-            padding: 0;
-        }
-
-    .num {
-        background-color: rgba(255,0,0,0.4);
-        /*display: inline-block;*/
-        margin-bottom: -1em;
-        text-align: right;
-    }
-    .symbol {
-        /*background-color: rgba(0,0,255,0.6);*/
-        display: inline-block;
-        font-size: 1.6em;
-        font-weight: bold;
-        text-align: center;
-    }
-    .name {
-        /*display: block;*/
-        font-size: 0.8em;
-        letter-spacing: -0.08em;
-        text-align: center;
-    }
-</style>
-
 
 <h1 class="C">Periodic Table</h1>
 
@@ -85,7 +41,7 @@
         }
         //<p>@sElementsJSON</p>
         
-        var oPTable = Json.Decode(sElementsJSON);  //decode the JSON structure into an unspecified type
+        //var oPTable = Json.Decode(sElementsJSON);  //decode the JSON structure into an unspecified type
         JObject JElements = JObject.Parse(sElementsJSON);
         JToken J = JElements["Elements"];
         

@@ -78,6 +78,7 @@
     <Content Include="Images\favicon.ico" />
     <Content Include="Scripts\jquery-2.0.1.js" />
     <Content Include="Scripts\jquery-2.0.1.min.js" />
+    <Content Include="Scripts\_references.js" />
     <Content Include="Shared\html5reset-1.6.1.css" />
     <Content Include="Fonts\Greg\Greg.svg" />
     <Content Include="Fonts\Greg\GregCaps.svg" />
@@ -102,6 +103,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Projects\Periodic Table\PCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

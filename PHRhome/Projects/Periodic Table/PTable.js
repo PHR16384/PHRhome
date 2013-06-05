@@ -20,7 +20,12 @@ function AddStyle()
 
 function PTableCalc()
 {
+    /*
+        IDEA:  Since the elements are grouped into blocks, append them into DOM blocks
+    */
+
     var arcBlock = ["s", "p", "d", "f", "g"];
+    var ar$Block = new Array(); //an array to be filled with DOM nodes
     var JPeriod = {
         1: 2,
         2: 8,
@@ -35,16 +40,17 @@ function PTableCalc()
 
     var arnBlock = new Array();
     var arnPeriod = new Array();
-    var B = 5;  //blocks
+    var B = arcBlock.length;  //blocks
     var P = 9;  //periods
     var b, p;
-
+    
     //calculate block widths:
     for (b = 0; b < B; b++) {
         arnBlock[b] = b * 4 + 2;    //2, 6, 10, 14, 18, ...
+        ar$Block[b] = $("<div id=\"block-" + arcBlock[b] + "\"></div>");
+        $("#PTable").appendTo();
     }
-
-    //calculate period widths:
-
+    
+    //
 }
 
