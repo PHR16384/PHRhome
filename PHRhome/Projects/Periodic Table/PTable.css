@@ -1,71 +1,122 @@
 ﻿/* Main Layout classes: */
 
 div#PTable {
-    background-color: rgba(0,255,0,0.2);
+    background-color: rgba(0,0,0,0.25);
     /*display: -moz-box;*/
+    height: 100px;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    width: 90%;
 }
         
 .element {
+    background-image: linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(96,96,96,1) 100%);
     background-image: -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(96,96,96,1) 100%);
-    border: 0px solid white;
+    background-image: -ms-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(96,96,96,1) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(96,96,96,1) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(96,96,96,1) 100%);
+    border: 1px solid rgba(255,255,255,0.25);
+    box-shadow: 0 0 6px 0 black;
+    cursor: pointer;
     display: inline-block;
     /*font-size: 0.8em;*/
     height: 80px;
-    margin: 2px;
+    margin: 1px;
     /*overflow: hidden;*/
     padding: 2px;
+    position: relative;
     text-overflow: ellipsis;
+    transition: all .25s;
     width: 76px;
 }
-    .element p {
-        /*display: block;*/
-        padding-bottom: 0;
+    .element:hover {
+        z-index: 1000;
+        transform: scale(1.33);
     }
 
+
+.name {
+    /*display: block;*/
+    font-size: 0.7em;
+    letter-spacing: -0.06em;
+    margin: 1.2em auto;
+    padding: 0;
+    text-align: center;
+    text-shadow: 0 0 2px black;
+}
 .num {
-    background-color: rgba(255,0,0,0.4);
+    background-color: rgba(192,192,192,0.5);
     /*display: inline-block;*/
+    font-size: 0.9em;
     margin-bottom: -1em;
+    padding-bottom: 0;
     text-align: right;
+    text-shadow: 0 0 2px black;
 }
 .symbol {
     /*background-color: rgba(0,0,255,0.6);*/
+    box-shadow: 0 0 4px 0 black;
     display: inline-block;
     font-size: 1.6em;
     font-weight: bold;
+    padding: 0 3px;
+    text-shadow: 0 0 2px black;
+}
+.weight {
+    font-size: 0.66em;
+    margin-top: 1.75em;
     text-align: center;
 }
-.name {
-    /*display: block;*/
-    font-size: 0.8em;
-    letter-spacing: -0.08em;
-    text-align: center;
+
+
+/* "Block" classes: */
+
+div#PTable > div {
+    display: block;
+    position: absolute;
+        /*top: 0;*/
+}
+
+.block-s {
+    background-color: rgba(255,0,0,0.5);
+}
+.block-p {
+    background-color: rgba(0,128,255,0.5);
+}
+.block-d {
+    background-color: rgba(128,255,0,0.5);
+}
+.block-f {
+    background-color: rgba(0,255,255,0.5);
+}
+.block-g {
+    background-color: rgba(255,128,0,0.5);
 }
 
 
 /* "Group" classes: */
 
 .Unknown {
-    background-color: whitesmoke;
-    color: black    !important;
+    background-color: rgba(224,224,224,1);
 }
 
 .Nonmetal {
-    background-color: lime;
+    background-color: rgba(0,255,48,1);
 }
 .Metal {
     /**/
 }
 
 .Alkali {
-    background-color: darkred   !important;
+    background-color: rgba(192,0,0,1) !important;
 }
 .Alkaline_Earth {
-    background-color: orange    !important;
+    background-color: rgba(255,176,0,1) !important;
 }
 
 .Transition {
-    background-color: pink  !important;
+    background-color: rgba(96,104,112,1) !important;
 }
 .Coinage {
     /**/
@@ -75,11 +126,11 @@ div#PTable {
 }
 
 .Post_Transition {
-    background-color: silver    !important;
+    background-color: rgba(64,80,96,1) !important;
 }
 
 .Metalloid {
-    background-color: forestgreen   !important;
+    background-color: rgba(0,128,0,1) !important;
 }
 
 .Pnictogen {
@@ -89,19 +140,22 @@ div#PTable {
     /**/
 }
 .Halogen {
-    background-color: teal  !important;
+    background-color: rgba(0,128,128,1) !important;
 }
 .Noble_Gas {
-    background-color: cyan  !important;
+    background-color: rgba(0,255,255,1) !important;
 }
 
 
 /* State (@ 273 K) classes: */
 
+.Solid {
+    background-color: rgba(0,0,0,0.5) !important;
+}
 .Liquid {
-    background-color: blue !important;
+    background-color: rgba(0,0,255,0.5) !important;
 }
 .Gas {
-    background-color: rgba(255,255,255,0.4)    !important;
+    background-color: rgba(255,0,0,0.5) !important;
 }
 

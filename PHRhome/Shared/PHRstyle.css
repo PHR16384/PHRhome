@@ -26,6 +26,7 @@ body {
 header#headmain {
     background: linear-gradient(bottom, rgb(8,16,24) 0%, rgb(48,56,64) 100%);
     background: -moz-linear-gradient(bottom, rgb(8,16,24) 0%, rgb(48,56,64) 100%);
+    background: -ms-linear-gradient(bottom, rgb(8,16,24) 0%, rgb(48,56,64) 100%);
     background: -o-linear-gradient(bottom, rgb(8,16,24) 0%, rgb(48,56,64) 100%);
     background: -webkit-linear-gradient(bottom, rgb(8,16,24) 0%, rgb(48,56,64) 100%);
     background-color: rgba(0,0,0,0.6);
@@ -39,6 +40,7 @@ header#headmain {
 footer#footmain {
     background: linear-gradient(bottom, rgb(8,16,24) 0%, rgb(48,56,64) 100%);
     background: -moz-linear-gradient(bottom, rgb(8,16,24) 0%, rgb(48,56,64) 100%);
+    background: -ms-linear-gradient(bottom, rgb(8,16,24) 0%, rgb(48,56,64) 100%);
     background: -o-linear-gradient(bottom, rgb(8,16,24) 0%, rgb(48,56,64) 100%);
     background: -webkit-linear-gradient(bottom, rgb(8,16,24) 0%, rgb(48,56,64) 100%);
     background-color: rgba(0,0,0,0.6);
@@ -64,7 +66,7 @@ section#main {
         left:0;
         right:0;
     /*  */
-    width: 96%;
+    width: 98%;
 }
 
 
@@ -102,19 +104,19 @@ a:link, a:visited {
 
 h1 {
     font-family: "Porscha";
-    font-size: 32px;
+    font-size: 40px;
     font-weight: normal;
 }
 h2 {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: normal;
 }
 h3 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: normal;
 }
 h4 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
 }
 

@@ -21,8 +21,19 @@
 
 <h1 class="C">Periodic Table</h1>
 
+<div id="PTable">
+    <p id="loadJSON">Attempting to load JSON file...<br />ERROR - Cannot load: JavaScript has been disabled by the user.</p>
 
-@{
+    <div class="element" id="testElem">
+        <p class="num">0</p>
+        <p class="symbol">Xyz</p>
+        <p class="name">Test Element</p>
+        <p class="weight">9.000678</p>
+    </div>
+</div>
+
+
+@*{
     //WebClient oClient = new WebClient();
     string sElementsJSON = "";
     
@@ -52,8 +63,8 @@
 
         <div id="PTable">
             @for( int x = 0; x < J.Count(); x++ )
-            {<div class="element">
-                <p class="num">@J[x]["atomic_number"]</p>
+            {<div class="element" id="@(x+1)">
+                <p class="num">@(x+1)</p>
                 <p class="symbol">@J[x]["symbol"]</p>
                 <p class="name">@J[x]["name"]</p>
              </div>}
@@ -70,5 +81,5 @@
         //oClient.Dispose();
     }
     
-}
+}*@
 
