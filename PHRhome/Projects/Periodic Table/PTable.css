@@ -61,7 +61,7 @@
     transition: all .25s;
     width: 76px;
 }
-    .element:hover {
+    .Element:hover {
         z-index: 1000;
         transform: scale(1.33);
         -webkit-transform: scale(1.33); /* Chrome is the only one where "transform" doesn't function properly */
