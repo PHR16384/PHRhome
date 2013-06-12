@@ -1,7 +1,7 @@
 ﻿/* Main Layout classes: */
 
-div#PTable {
-    background-color: rgba(0,0,0,0.25);
+#PTable {
+    /*background-color: rgba(0,0,0,0.25);*/
     /*display: -moz-box;*/
     height: 100px;
     margin: auto;
@@ -9,14 +9,45 @@ div#PTable {
     position: relative;
     width: 90%;
 }
+
+#Legend {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+        left: 210px;
+        top: 16px;
+    width: 600px;
+}
+#Category {
+    display: inline-block;
+    max-width: 50%;
+}
+    #Category > p {
+        box-shadow: 0 0 4px 0 black;
+        display: inline-block;
+        /*font-size: 0.75em;*/
+        /*font-style: italic;*/
+        font-weight: bold;
+        padding: 0.1em 0.25em;
+        text-shadow: 0 0 2px black;
+    }
+#Phase {
+    display: inline-block;
+    position: absolute;
+        right: 0;
+    width: 40%;
+}
+    #Phase > p {
+        text-align: right;
+    }
         
-.element {
+.Element {
     background-image: linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(96,96,96,1) 100%);
     background-image: -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(96,96,96,1) 100%);
     background-image: -ms-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(96,96,96,1) 100%);
     background-image: -o-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(96,96,96,1) 100%);
     background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(96,96,96,1) 100%);
-    border: 1px solid rgba(255,255,255,0.25);
+    border: 1px solid rgba(255,255,255,0.5);
+        /*border-top-color: rgba(255,255,255,0.75);*/
     box-shadow: 0 0 6px 0 black;
     cursor: pointer;
     display: inline-block;
@@ -33,6 +64,7 @@ div#PTable {
     .element:hover {
         z-index: 1000;
         transform: scale(1.33);
+        -webkit-transform: scale(1.33); /* Chrome is the only one where "transform" doesn't function properly */
     }
 
 
@@ -60,37 +92,39 @@ div#PTable {
     display: inline-block;
     font-size: 1.6em;
     font-weight: bold;
+    margin: 0;
     padding: 0 3px;
     text-shadow: 0 0 2px black;
 }
 .weight {
     font-size: 0.66em;
     margin-top: 1.75em;
+    margin-bottom: 0;
     text-align: center;
 }
 
 
 /* "Block" classes: */
 
-div#PTable > div {
+#PTable > div {
     display: block;
     position: absolute;
         /*top: 0;*/
 }
 
-.block-s {
+.s {
     background-color: rgba(255,0,0,0.5);
 }
-.block-p {
+.p {
     background-color: rgba(0,128,255,0.5);
 }
-.block-d {
+.d {
     background-color: rgba(128,255,0,0.5);
 }
-.block-f {
+.f {
     background-color: rgba(0,255,255,0.5);
 }
-.block-g {
+.g {
     background-color: rgba(255,128,0,0.5);
 }
 
@@ -116,13 +150,20 @@ div#PTable > div {
 }
 
 .Transition {
-    background-color: rgba(96,104,112,1) !important;
+    background-color: rgba(96,104,112,1);
 }
 .Coinage {
     /**/
 }
 .Volatile {
     /**/
+}
+
+.Lanthanide {
+    background-color: rgba(160,96,128,1) !important;
+}
+.Actinide {
+    background-color: rgba(128,96,160,1) !important;
 }
 
 .Post_Transition {

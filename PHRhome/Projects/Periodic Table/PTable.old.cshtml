@@ -1,0 +1,69 @@
+﻿@using Newtonsoft.Json.Linq;
+
+@{
+    Layout = "~/_Layout.cshtml";
+    
+    Page.Title = "Periodic Table - PHR Home";
+    //Page.mKeywords = "PHR, TJK";
+    //Page.mDescription = "PHR homepage, hosted on AppHarbor";
+}
+
+<!--
+    PERIODIC TABLE
+    - reads from "Elements.JSON"
+    - Table cells pop out on mouseover
+    - Simple info displayed; moar details when "More" is clicked
+    - use CSS filters + JS to make nifty 3D effects
+-->
+
+
+@*{
+    //WebClient oClient = new WebClient();
+    string sElementsJSON = "";
+    
+    try
+    {
+        /* http://www.w3schools.com/aspnet/webpages_files.asp
+         * These next 2 lines grab the "elements.json" file from a relative path on the server:
+         */
+        var data = Server.MapPath("./elements.json");   //"finds the exact text file path"
+        string[] arsData = File.ReadAllLines(data); //"opens the text file and reads all lines from the file into an array"
+        
+        foreach (string str in arsData)
+        {
+            sElementsJSON += str;   //append each item to a single string variable
+            //<p>@str</p>
+        }
+        //<p>@sElementsJSON</p>
+        
+        //var oPTable = Json.Decode(sElementsJSON);  //decode the JSON structure into an unspecified type
+        JObject JElements = JObject.Parse(sElementsJSON);
+        JToken J = JElements["Elements"];
+        
+        /*
+         * NOTE:
+         * Will use C# to read basic JSON info; later use JS/jQuery to read more complex info and modify the page layout accordingly
+         */
+
+        <div id="PTable">
+            @for( int x = 0; x < J.Count(); x++ )
+            {<div class="element" id="@(x+1)">
+                <p class="num">@(x+1)</p>
+                <p class="symbol">@J[x]["symbol"]</p>
+                <p class="name">@J[x]["name"]</p>
+             </div>}
+        </div>
+        <!-- manually eliminate whitespace above -->
+        
+    }
+    catch (Exception e)
+    {
+        <p>@e.Message</p>
+    }
+    finally
+    {
+        //oClient.Dispose();
+    }
+    
+}*@
+

@@ -46,7 +46,7 @@
         "pauling_negativity" : "-",
         "first_ionizing kJ/mol" : 2361.3,
         "oxidation_states" : "-",
-        "electronic_configuration" : "1s²",
+        "electronic_configuration" : "1s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.570
     },
@@ -71,7 +71,7 @@
         "pauling_negativity" : 0.98,
         "first_ionizing kJ/mol" : 519.9,
         "oxidation_states" : 1,
-        "electronic_configuration" : "[He]2s¹",
+        "electronic_configuration" : "[He]2s^1",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 3.490
     },
@@ -96,7 +96,7 @@
         "pauling_negativity" : 1.57,
         "first_ionizing kJ/mol" : 898.8,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[He]2s²",
+        "electronic_configuration" : "[He]2s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.290
     },
@@ -121,7 +121,7 @@
         "pauling_negativity" : 2.04,
         "first_ionizing kJ/mol" : 800.2,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[He]2s²2p¹",
+        "electronic_configuration" : "[He]2s^2 2p^1",
         "lattice_structure" : "TET",
         "lattice_constant ang" : 8.730
     },
@@ -146,7 +146,7 @@
         "pauling_negativity" : 2.55,
         "first_ionizing kJ/mol" : 1085.7,
         "oxidation_states" : "4, 2, -4",
-        "electronic_configuration" : "[He]2s²2p²",
+        "electronic_configuration" : "[He] 2s^2 2p^2",
         "lattice_structure" : "DIA",
         "lattice_constant ang" : 3.570
     },
@@ -171,7 +171,7 @@
         "pauling_negativity" : 3.04,
         "first_ionizing kJ/mol" : 1401.5,
         "oxidation_states" : "5, 4, 3, 2, -3",
-        "electronic_configuration" : "[He]2s²2p³",
+        "electronic_configuration" : "[He] 2s^2 2p^3",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 4.039
     },
@@ -196,7 +196,7 @@
         "pauling_negativity" : 3.44,
         "first_ionizing kJ/mol" : 1313.1,
         "oxidation_states" : "-2, -1",
-        "electronic_configuration" : "[He]2s²2p",
+        "electronic_configuration" : "[He]2s^2 2p",
         "lattice_structure" : "CUB",
         "lattice_constant ang" : 6.830
     },
@@ -221,7 +221,7 @@
         "pauling_negativity" : 3.98,
         "first_ionizing kJ/mol" : 1680.0,
         "oxidation_states" : -1,
-        "electronic_configuration" : "[He]2s²2p",
+        "electronic_configuration" : "[He]2s^2 2p",
         "lattice_structure" : "MCL",
         "lattice_constant ang" : "-"
     },
@@ -246,7 +246,7 @@
         "pauling_negativity" : 0.0,
         "first_ionizing kJ/mol" : 2079.4,
         "oxidation_states" : "-",
-        "electronic_configuration" : "[He]2s²2p",
+        "electronic_configuration" : "[He]2s^2 2p",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 4.430
     },
@@ -271,7 +271,7 @@
         "pauling_negativity" : 0.93,
         "first_ionizing kJ/mol" : 495.6,
         "oxidation_states" : 1,
-        "electronic_configuration" : "[Ne]3s¹",
+        "electronic_configuration" : "[Ne]3s^1",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 4.230
     },
@@ -296,7 +296,7 @@
         "pauling_negativity" : 1.31,
         "first_ionizing kJ/mol" : 737.3,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Ne]3s²",
+        "electronic_configuration" : "[Ne]3s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.210
     },
@@ -321,7 +321,7 @@
         "pauling_negativity" : 1.61,
         "first_ionizing kJ/mol" : 577.2,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Ne]3s²3p¹",
+        "electronic_configuration" : "[Ne]3s^2 3p^1",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 4.050
     },
@@ -346,7 +346,7 @@
         "pauling_negativity" : 1.90,
         "first_ionizing kJ/mol" : 786.0,
         "oxidation_states" : "4, -4",
-        "electronic_configuration" : "[Ne]3s²3p²",
+        "electronic_configuration" : "[Ne]3s^2 3p^2",
         "lattice_structure" : "DIA",
         "lattice_constant ang" : 5.430
     },
@@ -371,7 +371,7 @@
         "pauling_negativity" : 2.19,
         "first_ionizing kJ/mol" : 1011.2,
         "oxidation_states" : "5, 3, -3",
-        "electronic_configuration" : "[Ne]3s²3p³",
+        "electronic_configuration" : "[Ne]3s^2 3p^3",
         "lattice_structure" : "CUB",
         "lattice_constant ang" : 7.170
     },
@@ -396,7 +396,7 @@
         "pauling_negativity" : 2.58,
         "first_ionizing kJ/mol" : 999.0,
         "oxidation_states" : "6, 4, 2, -2",
-        "electronic_configuration" : "[Ne]3s²3p",
+        "electronic_configuration" : "[Ne]3s^2 3p",
         "lattice_structure" : "ORC",
         "lattice_constant ang" : 10.470
     },
@@ -421,7 +421,7 @@
         "pauling_negativity" : 3.16,
         "first_ionizing kJ/mol" : 1254.9,
         "oxidation_states" : "7, 5, 3, 1, -1",
-        "electronic_configuration" : "[Ne]3s²3p",
+        "electronic_configuration" : "[Ne]3s^2 3p",
         "lattice_structure" : "ORC",
         "lattice_constant ang" : 6.240
     },
@@ -446,7 +446,7 @@
         "pauling_negativity" : 0.0,
         "first_ionizing kJ/mol" : 1519.6,
         "oxidation_states" : "-",
-        "electronic_configuration" : "[Ne]3s²3p",
+        "electronic_configuration" : "[Ne]3s^2 3p",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 5.260
     },
@@ -471,7 +471,7 @@
         "pauling_negativity" : 0.82,
         "first_ionizing kJ/mol" : 418.5,
         "oxidation_states" : 1,
-        "electronic_configuration" : "[Ar]4s¹",
+        "electronic_configuration" : "[Ar]4s^1",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 5.230
     },
@@ -496,7 +496,7 @@
         "pauling_negativity" : 1.00,
         "first_ionizing kJ/mol" : 589.4,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Ar]4s²",
+        "electronic_configuration" : "[Ar]4s^2",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 5.580
     },
@@ -521,7 +521,7 @@
         "pauling_negativity" : 1.36,
         "first_ionizing kJ/mol" : 630.8,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Ar]3d¹4s²",
+        "electronic_configuration" : "[Ar]3d^1 4s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.310
     },
@@ -546,7 +546,7 @@
         "pauling_negativity" : 1.54,
         "first_ionizing kJ/mol" : 657.8,
         "oxidation_states" : "4, 3",
-        "electronic_configuration" : "[Ar]3d²4s²",
+        "electronic_configuration" : "[Ar]3d^2 4s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.950
     },
@@ -571,7 +571,7 @@
         "pauling_negativity" : 1.63,
         "first_ionizing kJ/mol" : 650.1,
         "oxidation_states" : "5, 4, 3, 2, 0",
-        "electronic_configuration" : "[Ar]3d³4s²",
+        "electronic_configuration" : "[Ar] 3d^3 4s^2",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 3.020
     },
@@ -596,7 +596,7 @@
         "pauling_negativity" : 1.66,
         "first_ionizing kJ/mol" : 652.4,
         "oxidation_states" : "6, 3, 2, 0",
-        "electronic_configuration" : "[Ar]3d4s¹",
+        "electronic_configuration" : "[Ar]3d4s^1",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 2.880
     },
@@ -621,7 +621,7 @@
         "pauling_negativity" : 1.55,
         "first_ionizing kJ/mol" : 716.8,
         "oxidation_states" : "7, 6, 4, 3, 2, 0, -1",
-        "electronic_configuration" : "[Ar]3d4s²",
+        "electronic_configuration" : "[Ar]3d4s^2",
         "lattice_structure" : "CUB",
         "lattice_constant ang" : 8.890
     },
@@ -646,7 +646,7 @@
         "pauling_negativity" : 1.83,
         "first_ionizing kJ/mol" : 759.1,
         "oxidation_states" : "6, 3, 2, 0, -2",
-        "electronic_configuration" : "[Ar]3d4s²",
+        "electronic_configuration" : "[Ar]3d4s^2",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 2.870
     },
@@ -671,7 +671,7 @@
         "pauling_negativity" : 1.88,
         "first_ionizing kJ/mol" : 758.1,
         "oxidation_states" : "3, 2, 0, -1",
-        "electronic_configuration" : "[Ar]3d4s²",
+        "electronic_configuration" : "[Ar]3d4s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.510
     },
@@ -696,7 +696,7 @@
         "pauling_negativity" : 1.91,
         "first_ionizing kJ/mol" : 736.2,
         "oxidation_states" : "3, 2, 0",
-        "electronic_configuration" : "[Ar]3d4s²",
+        "electronic_configuration" : "[Ar]3d4s^2",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 3.520
     },
@@ -721,7 +721,7 @@
         "pauling_negativity" : 1.90,
         "first_ionizing kJ/mol" : 745.0,
         "oxidation_states" : "2, 1",
-        "electronic_configuration" : "[Ar]3d¹4s¹",
+        "electronic_configuration" : "[Ar]3d^1 4s^1",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 3.610
     },
@@ -746,7 +746,7 @@
         "pauling_negativity" : 1.65,
         "first_ionizing kJ/mol" : 905.8,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Ar]3d¹4s²",
+        "electronic_configuration" : "[Ar]3d^1 4s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.660
     },
@@ -771,7 +771,7 @@
         "pauling_negativity" : 1.81,
         "first_ionizing kJ/mol" : 578.7,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Ar]3d¹4s²4p¹",
+        "electronic_configuration" : "[Ar]3d^1 4s^2 4p^1",
         "lattice_structure" : "ORC",
         "lattice_constant ang" : 4.510
     },
@@ -796,7 +796,7 @@
         "pauling_negativity" : 2.01,
         "first_ionizing kJ/mol" : 760.0,
         "oxidation_states" : 4,
-        "electronic_configuration" : "[Ar]3d¹4s²4p²",
+        "electronic_configuration" : "[Ar]3d^1 4s^2 4p^2",
         "lattice_structure" : "DIA",
         "lattice_constant ang" : 5.660
     },
@@ -821,7 +821,7 @@
         "pauling_negativity" : 2.18,
         "first_ionizing kJ/mol" : 946.2,
         "oxidation_states" : "5, 3, -2",
-        "electronic_configuration" : "[Ar]3d¹4s²4p³",
+        "electronic_configuration" : "[Ar]3d^1 4s^2 4p^3",
         "lattice_structure" : "RHL",
         "lattice_constant ang" : 4.130
     },
@@ -846,7 +846,7 @@
         "pauling_negativity" : 2.55,
         "first_ionizing kJ/mol" : 940.4,
         "oxidation_states" : "6, 4, -2",
-        "electronic_configuration" : "[Ar]3d¹4s²4p",
+        "electronic_configuration" : "[Ar]3d^1 4s^2 4p",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 4.360
     },
@@ -871,7 +871,7 @@
         "pauling_negativity" : 2.96,
         "first_ionizing kJ/mol" : 1142.0,
         "oxidation_states" : "7, 5, 3, 1, -1",
-        "electronic_configuration" : "[Ar]3d¹4s²4p",
+        "electronic_configuration" : "[Ar]3d^1 4s^2 4p",
         "lattice_structure" : "ORC",
         "lattice_constant ang" : 6.670
     },
@@ -896,7 +896,7 @@
         "pauling_negativity" : 0.0,
         "first_ionizing kJ/mol" : 1350.0,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Ar]3d¹4s²4p",
+        "electronic_configuration" : "[Ar]3d^1 4s^2 4p",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 5.720
     },
@@ -921,7 +921,7 @@
         "pauling_negativity" : 0.82,
         "first_ionizing kJ/mol" : 402.8,
         "oxidation_states" : 1,
-        "electronic_configuration" : "[Kr]5s¹",
+        "electronic_configuration" : "[Kr]5s^1",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 5.590
     },
@@ -946,7 +946,7 @@
         "pauling_negativity" : 0.95,
         "first_ionizing kJ/mol" : 549.0,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Kr]5s²",
+        "electronic_configuration" : "[Kr]5s^2",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 6.080
     },
@@ -971,7 +971,7 @@
         "pauling_negativity" : 1.22,
         "first_ionizing kJ/mol" : 615.4,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Kr]4d¹5s²",
+        "electronic_configuration" : "[Kr]4d^1 5s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.650
     },
@@ -996,7 +996,7 @@
         "pauling_negativity" : 1.33,
         "first_ionizing kJ/mol" : 659.7,
         "oxidation_states" : 4,
-        "electronic_configuration" : "[Kr]4d²5s²",
+        "electronic_configuration" : "[Kr]4d^2 5s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.230
     },
@@ -1021,7 +1021,7 @@
         "pauling_negativity" : 1.6,
         "first_ionizing kJ/mol" : 663.6,
         "oxidation_states" : "5, 3",
-        "electronic_configuration" : "[Kr]4d5s¹",
+        "electronic_configuration" : "[Kr]4d5s^1",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 3.300
     },
@@ -1046,7 +1046,7 @@
         "pauling_negativity" : 2.16,
         "first_ionizing kJ/mol" : 684.8,
         "oxidation_states" : "6, 5, 4, 3, 2, 0",
-        "electronic_configuration" : "[Kr]4d5s¹",
+        "electronic_configuration" : "[Kr]4d5s^1",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 3.150
     },
@@ -1071,7 +1071,7 @@
         "pauling_negativity" : 1.9,
         "first_ionizing kJ/mol" : 702.2,
         "oxidation_states" : 7,
-        "electronic_configuration" : "[Kr]4d5s¹",
+        "electronic_configuration" : "[Kr]4d5s^1",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.740
     },
@@ -1096,7 +1096,7 @@
         "pauling_negativity" : 2.2,
         "first_ionizing kJ/mol" : 710.3,
         "oxidation_states" : "8, 6, 4, 3, 2, 0, -2",
-        "electronic_configuration" : "[Kr]4d5s¹",
+        "electronic_configuration" : "[Kr]4d5s^1",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.700
     },
@@ -1121,7 +1121,7 @@
         "pauling_negativity" : 2.28,
         "first_ionizing kJ/mol" : 719.5,
         "oxidation_states" : "5, 4, 3, 2, 1, 0",
-        "electronic_configuration" : "[Kr]4d5s¹",
+        "electronic_configuration" : "[Kr]4d5s^1",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 3.800
     },
@@ -1171,7 +1171,7 @@
         "pauling_negativity" : 1.93,
         "first_ionizing kJ/mol" : 730.5,
         "oxidation_states" : "2, 1",
-        "electronic_configuration" : "[Kr]4d5s¹",
+        "electronic_configuration" : "[Kr]4d5s^1",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 4.090
     },
@@ -1196,7 +1196,7 @@
         "pauling_negativity" : 1.69,
         "first_ionizing kJ/mol" : 867.2,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Kr]4d5s²",
+        "electronic_configuration" : "[Kr]4d5s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.980
     },
@@ -1221,7 +1221,7 @@
         "pauling_negativity" : 1.78,
         "first_ionizing kJ/mol" : 558.0,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Kr]4d5s²5p¹",
+        "electronic_configuration" : "[Kr]4d5s^2 5p^1",
         "lattice_structure" : "TET",
         "lattice_constant ang" : 4.590
     },
@@ -1246,7 +1246,7 @@
         "pauling_negativity" : 1.96,
         "first_ionizing kJ/mol" : 708.2,
         "oxidation_states" : "4, 2",
-        "electronic_configuration" : "[Kr]4d5s²5p²",
+        "electronic_configuration" : "[Kr]4d5s^2 5p^2",
         "lattice_structure" : "TET",
         "lattice_constant ang" : 5.820
     },
@@ -1271,7 +1271,7 @@
         "pauling_negativity" : 2.05,
         "first_ionizing kJ/mol" : 833.3,
         "oxidation_states" : "5, 3, -2",
-        "electronic_configuration" : "[Kr]4d5s²5p³",
+        "electronic_configuration" : "[Kr]4d5s^2 5p^3",
         "lattice_structure" : "RHL",
         "lattice_constant ang" : 4.510
     },
@@ -1296,7 +1296,7 @@
         "pauling_negativity" : 2.1,
         "first_ionizing kJ/mol" : 869.0,
         "oxidation_states" : "6, 4, 2",
-        "electronic_configuration" : "[Kr]4d5s²5p",
+        "electronic_configuration" : "[Kr]4d5s^2 5p",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 4.450
     },
@@ -1321,7 +1321,7 @@
         "pauling_negativity" : 2.66,
         "first_ionizing kJ/mol" : 1008.3,
         "oxidation_states" : "7, 5, 1, -1",
-        "electronic_configuration" : "[Kr]4d5s²5p",
+        "electronic_configuration" : "[Kr]4d5s^2 5p",
         "lattice_structure" : "ORC",
         "lattice_constant ang" : 7.720
     },
@@ -1346,7 +1346,7 @@
         "pauling_negativity" : 0.0,
         "first_ionizing kJ/mol" : 1170.0,
         "oxidation_states" : 7,
-        "electronic_configuration" : "[Kr]4d5s²5p",
+        "electronic_configuration" : "[Kr]4d5s^2 5p",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 6.200
     },
@@ -1371,7 +1371,7 @@
         "pauling_negativity" : 0.79,
         "first_ionizing kJ/mol" : 375.5,
         "oxidation_states" : 1,
-        "electronic_configuration" : "[Xe]6s¹",
+        "electronic_configuration" : "[Xe] 6s^1",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 6.050
     },
@@ -1396,7 +1396,7 @@
         "pauling_negativity" : 0.89,
         "first_ionizing kJ/mol" : 502.5,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Xe]6s²",
+        "electronic_configuration" : "[Xe] 6s^2",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 5.020
     },
@@ -1421,7 +1421,7 @@
         "pauling_negativity" : 1.10,
         "first_ionizing kJ/mol" : 541.1,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]6d¹6s²",
+        "electronic_configuration" : "[Xe] 6d^1 6s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.750
     },
@@ -1446,7 +1446,7 @@
         "pauling_negativity" : 1.12,
         "first_ionizing kJ/mol" : 540.1,
         "oxidation_states" : "4, 3",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²",
+        "electronic_configuration" : "[Xe]4f^1 5d^1 6s^2",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 5.160
     },
@@ -1471,7 +1471,7 @@
         "pauling_negativity" : 1.13,
         "first_ionizing kJ/mol" : 526.6,
         "oxidation_states" : "4, 3",
-        "electronic_configuration" : "[Xe]4f³5d6s²",
+        "electronic_configuration" : "[Xe]4f^3 5d6s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.670
     },
@@ -1496,7 +1496,7 @@
         "pauling_negativity" : 1.14,
         "first_ionizing kJ/mol" : 531.5,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]4f5d6s²",
+        "electronic_configuration" : "[Xe]4f5d6s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.660
     },
@@ -1521,7 +1521,7 @@
         "pauling_negativity" : 0.0,
         "first_ionizing kJ/mol" : 536,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]4f5d6s²",
+        "electronic_configuration" : "[Xe]4f5d6s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -1546,7 +1546,7 @@
         "pauling_negativity" : 1.17,
         "first_ionizing kJ/mol" : 540.1,
         "oxidation_states" : "3, 2",
-        "electronic_configuration" : "[Xe]4f5d6s²",
+        "electronic_configuration" : "[Xe]4f5d6s^2",
         "lattice_structure" : "RHL",
         "lattice_constant ang" : 9.000
     },
@@ -1571,7 +1571,7 @@
         "pauling_negativity" : 0.0,
         "first_ionizing kJ/mol" : 546.9,
         "oxidation_states" : "3, 2",
-        "electronic_configuration" : "[Xe]4f5d6s²",
+        "electronic_configuration" : "[Xe]4f5d6s^2",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 4.610
     },
@@ -1596,7 +1596,7 @@
         "pauling_negativity" : 1.20,
         "first_ionizing kJ/mol" : 594.2,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]4f5d¹6s²",
+        "electronic_configuration" : "[Xe]4f5d^1 6s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.640
     },
@@ -1621,7 +1621,7 @@
         "pauling_negativity" : 1.2,
         "first_ionizing kJ/mol" : 569,
         "oxidation_states" : "4, 3",
-        "electronic_configuration" : "[Xe]4f5d6s²",
+        "electronic_configuration" : "[Xe]4f5d6s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.600
     },
@@ -1646,7 +1646,7 @@
         "pauling_negativity" : "-",
         "first_ionizing kJ/mol" : 567,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]4f5d6s²",
+        "electronic_configuration" : "[Xe]4f5d6s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.590
     },
@@ -1671,7 +1671,7 @@
         "pauling_negativity" : 1.23,
         "first_ionizing kJ/mol" : 574,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]4f¹¹5d6s²",
+        "electronic_configuration" : "[Xe]4f^1 ^1 5d6s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.580
     },
@@ -1696,7 +1696,7 @@
         "pauling_negativity" : 1.24,
         "first_ionizing kJ/mol" : 581,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]4f¹²5d6s²",
+        "electronic_configuration" : "[Xe]4f^1 ^2 5d6s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.560
     },
@@ -1721,7 +1721,7 @@
         "pauling_negativity" : 1.25,
         "first_ionizing kJ/mol" : 589,
         "oxidation_states" : "3, 2",
-        "electronic_configuration" : "[Xe]4f¹³5d6s²",
+        "electronic_configuration" : "[Xe]4f^1 ^3 5d6s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.540
     },
@@ -1746,7 +1746,7 @@
         "pauling_negativity" : 1.1,
         "first_ionizing kJ/mol" : 603,
         "oxidation_states" : "3, 2",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²",
+        "electronic_configuration" : "[Xe]4f^1 5d^1 6s^2",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 5.490
     },
@@ -1771,7 +1771,7 @@
         "pauling_negativity" : 1.27,
         "first_ionizing kJ/mol" : 513,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²",
+        "electronic_configuration" : "[Xe]4f^1 5d^1 6s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.510
     },
@@ -1796,7 +1796,7 @@
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : 575.2,
         "oxidation_states" : 4,
-        "electronic_configuration" : "[Xe]4f¹5d²6s²",
+        "electronic_configuration" : "[Xe]4f^1 5d^2 6s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.200
     },
@@ -1821,7 +1821,7 @@
         "pauling_negativity" : 1.5,
         "first_ionizing kJ/mol" : 760.1,
         "oxidation_states" : 5,
-        "electronic_configuration" : "[Xe]4f¹5d³6s²",
+        "electronic_configuration" : "[Xe]4f^1 5d^3 6s^2",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 3.310
     },
@@ -1846,7 +1846,7 @@
         "pauling_negativity" : 1.7,
         "first_ionizing kJ/mol" : 769.7,
         "oxidation_states" : "6, 5, 4, 3, 2, 0",
-        "electronic_configuration" : "[Xe]4f¹5d6s²",
+        "electronic_configuration" : "[Xe]4f^1 5d6s^2",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : 3.160
     },
@@ -1871,7 +1871,7 @@
         "pauling_negativity" : 1.9,
         "first_ionizing kJ/mol" : 759.1,
         "oxidation_states" : "5, 4, 3, 2, -1",
-        "electronic_configuration" : "[Xe]4f¹5d6s²",
+        "electronic_configuration" : "[Xe]4f^1 5d6s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.760
     },
@@ -1896,7 +1896,7 @@
         "pauling_negativity" : 2.2,
         "first_ionizing kJ/mol" : 819.8,
         "oxidation_states" : "8, 6, 4, 3, 2, 0, -2",
-        "electronic_configuration" : "[Xe]4f¹5d6s²",
+        "electronic_configuration" : "[Xe]4f^1 5d6s^2",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 2.740
     },
@@ -1921,7 +1921,7 @@
         "pauling_negativity" : 2.20,
         "first_ionizing kJ/mol" : 868.1,
         "oxidation_states" : "6, 4, 3, 2, 1, 0, -1",
-        "electronic_configuration" : "[Xe]4f¹5d6s²",
+        "electronic_configuration" : "[Xe]4f^1 5d6s^2",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 3.840
     },
@@ -1946,7 +1946,7 @@
         "pauling_negativity" : 2.28,
         "first_ionizing kJ/mol" : 868.1,
         "oxidation_states" : "4, 2, 0",
-        "electronic_configuration" : "[Xe]4f¹5d6s²",
+        "electronic_configuration" : "[Xe]4f^1 5d6s^2",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 3.920
     },
@@ -1971,7 +1971,7 @@
         "pauling_negativity" : 2.54,
         "first_ionizing kJ/mol" : 889.3,
         "oxidation_states" : "3, 1",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²",
+        "electronic_configuration" : "[Xe]4f^1 5d^1 6s^2",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 4.080
     },
@@ -1996,7 +1996,7 @@
         "pauling_negativity" : 2.00,
         "first_ionizing kJ/mol" : 1006.0,
         "oxidation_states" : "2, 1",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²",
+        "electronic_configuration" : "[Xe]4f^1 5d^1 6s^2",
         "lattice_structure" : "RHL",
         "lattice_constant ang" : 2.990
     },
@@ -2021,7 +2021,7 @@
         "pauling_negativity" : 1.62,
         "first_ionizing kJ/mol" : 588.9,
         "oxidation_states" : "3, 1",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²6p¹",
+        "electronic_configuration" : "[Xe]4f^1 5d^1 6s^2 6p^1",
         "lattice_structure" : "HEX",
         "lattice_constant ang" : 3.460
     },
@@ -2046,7 +2046,7 @@
         "pauling_negativity" : 1.8,
         "first_ionizing kJ/mol" : 715.2,
         "oxidation_states" : "4, 2",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²6p²",
+        "electronic_configuration" : "[Xe]4f^1 5d^1 6s^2 6p^2",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 4.950
     },
@@ -2071,7 +2071,7 @@
         "pauling_negativity" : 2.02,
         "first_ionizing kJ/mol" : 702.9,
         "oxidation_states" : "5, 3",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²6p³",
+        "electronic_configuration" : "[Xe]4f^1 5d^1 6s^2 6p^3",
         "lattice_structure" : "RHL",
         "lattice_constant ang" : 4.750
     },
@@ -2096,7 +2096,7 @@
         "pauling_negativity" : 2.0,
         "first_ionizing kJ/mol" : 813.1,
         "oxidation_states" : "6, 4, 2",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²6p",
+        "electronic_configuration" : "[Xe]4f^1 5d^1 6s^2 6p",
         "lattice_structure" : "SC",
         "lattice_constant ang" : 3.350
     },
@@ -2121,7 +2121,7 @@
         "pauling_negativity" : 2.2,
         "first_ionizing kJ/mol" : 916.3,
         "oxidation_states" : "7, 5, 3, 1, -1",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²6p",
+        "electronic_configuration" : "[Xe]4f^1 5d^1 6s^2 6p",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2146,7 +2146,7 @@
         "pauling_negativity" : "-",
         "first_ionizing kJ/mol" : 1036.5,
         "oxidation_states" : "-",
-        "electronic_configuration" : "[Xe]4f¹5d¹6s²6p",
+        "electronic_configuration" : "[Xe]4f^1 5d^1 6s^2 6p",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : "n/a"
     },
@@ -2171,7 +2171,7 @@
         "pauling_negativity" : 0.7,
         "first_ionizing kJ/mol" : "~375",
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Rn]7s¹",
+        "electronic_configuration" : "[Rn]7s^1",
         "lattice_structure" : "BCC",
         "lattice_constant ang" : "n/a"
     },
@@ -2196,7 +2196,7 @@
         "pauling_negativity" : 0.9,
         "first_ionizing kJ/mol" : 509.0,
         "oxidation_states" : 2,
-        "electronic_configuration" : "[Rn]7s²",
+        "electronic_configuration" : "[Rn]7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2221,7 +2221,7 @@
         "pauling_negativity" : 1.1,
         "first_ionizing kJ/mol" : 665.5,
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Rn]6d¹7s²",
+        "electronic_configuration" : "[Rn]6d^1 7s^2",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 5.310
     },
@@ -2246,7 +2246,7 @@
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : 670.4,
         "oxidation_states" : 4,
-        "electronic_configuration" : "[Rn]5f6d¹7s²",
+        "electronic_configuration" : "[Rn]5f6d^1 7s^2",
         "lattice_structure" : "FCC",
         "lattice_constant ang" : 5.080
     },
@@ -2271,7 +2271,7 @@
         "pauling_negativity" : 1.5,
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "5, 4",
-        "electronic_configuration" : "[Rn]5f²6d¹7s²",
+        "electronic_configuration" : "[Rn]5f^2 6d^1 7s^2",
         "lattice_structure" : "TET",
         "lattice_constant ang" : 3.920
     },
@@ -2296,7 +2296,7 @@
         "pauling_negativity" : 1.38,
         "first_ionizing kJ/mol" : 686.4,
         "oxidation_states" : "6, 5, 4, 3",
-        "electronic_configuration" : "[Rn]5f³6d¹7s²",
+        "electronic_configuration" : "[Rn]5f^3 6d^1 7s^2",
         "lattice_structure" : "ORC",
         "lattice_constant ang" : 2.850
     },
@@ -2321,7 +2321,7 @@
         "pauling_negativity" : 1.36,
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "6, 5, 4, 3",
-        "electronic_configuration" : "[Rn]5f6d¹7s²",
+        "electronic_configuration" : "[Rn]5f6d^1 7s^2",
         "lattice_structure" : "ORC",
         "lattice_constant ang" : 4.720
     },
@@ -2346,7 +2346,7 @@
         "pauling_negativity" : 1.28,
         "first_ionizing kJ/mol" : 491.9,
         "oxidation_states" : "6, 5, 4, 3",
-        "electronic_configuration" : "[Rn]5f6d7s²",
+        "electronic_configuration" : "[Rn]5f6d7s^2",
         "lattice_structure" : "MCL",
         "lattice_constant ang" : "n/a"
     },
@@ -2371,7 +2371,7 @@
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : "6, 5, 4, 3",
-        "electronic_configuration" : "[Rn]5f6d7s²",
+        "electronic_configuration" : "[Rn]5f6d7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2396,7 +2396,7 @@
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "(580)",
         "oxidation_states" : "4, 3",
-        "electronic_configuration" : "[Rn]5f6d¹7s²",
+        "electronic_configuration" : "[Rn]5f6d^1 7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/A"
     },
@@ -2421,7 +2421,7 @@
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "(600)",
         "oxidation_states" : "4, 3",
-        "electronic_configuration" : "[Rn]5f6d7s²",
+        "electronic_configuration" : "[Rn]5f6d7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2446,7 +2446,7 @@
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "(610)",
         "oxidation_states" : "4, 3",
-        "electronic_configuration" : "[Rn]5f¹6d7s²",
+        "electronic_configuration" : "[Rn]5f^1 6d7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2471,7 +2471,7 @@
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "(620)",
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Rn]5f¹¹6d7s²",
+        "electronic_configuration" : "[Rn]5f^1 ^1 6d7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2496,7 +2496,7 @@
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "(630)",
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Rn]5f¹²6d7s²",
+        "electronic_configuration" : "[Rn]5f^1 ^2 6d7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2521,7 +2521,7 @@
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "(635)",
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Rn]5f¹³6d7s²",
+        "electronic_configuration" : "[Rn]5f^1 ^3 6d7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2546,7 +2546,7 @@
         "pauling_negativity" : 1.3,
         "first_ionizing kJ/mol" : "(640)",
         "oxidation_states" : "3,2",
-        "electronic_configuration" : "[Rn]5f¹6d7s²",
+        "electronic_configuration" : "[Rn]5f^1 6d7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },
@@ -2558,7 +2558,7 @@
         "classes" : "Actinide Transition Metal",
         "block" : "d",
         "density g/cm" : "n/a",
-        "melting_point K" : "n/a",
+        "melting_point K" : 1900,
         "boiling_point K" : "n/a",
         "atomic_radius pm" : 282,
         "covalent_radius pm" : "n/a",
@@ -2571,7 +2571,7 @@
         "pauling_negativity" : "n/a",
         "first_ionizing kJ/mol" : "n/a",
         "oxidation_states" : 3,
-        "electronic_configuration" : "[Rn]5f¹6d¹7s²",
+        "electronic_configuration" : "[Rn]5f^1 6d^1 7s^2",
         "lattice_structure" : "n/a",
         "lattice_constant ang" : "n/a"
     },

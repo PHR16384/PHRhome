@@ -74,19 +74,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Fonts\Consolas\consola.eot" />
+    <Content Include="Fonts\Consolas\consola.svg" />
+    <Content Include="Fonts\Consolas\consola.ttf" />
     <Content Include="Fonts\fonts.css" />
+    <Content Include="Fonts\Consolas\consola.otf" />
+    <Content Include="Fonts\Consolas\consola.woff" />
     <None Include="Scripts\jquery-2.0.1.intellisense.js" />
     <Content Include="Images\favicon.ico" />
     <Content Include="Scripts\jquery-2.0.1.js" />
     <Content Include="Scripts\jquery-2.0.1.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Shared\html5reset-1.6.1.css" />
-    <Content Include="Fonts\Greg\Greg.svg" />
-    <Content Include="Fonts\Greg\GregCaps.svg" />
-    <Content Include="Fonts\Kongtext\Kongtext Regular.svg" />
-    <Content Include="Fonts\Kongtext\stylesheet.css" />
     <Content Include="Fonts\Porscha\911v2.svg" />
-    <Content Include="Fonts\Porscha\stylesheet.css" />
     <Content Include="Images\bg.gif" />
     <Content Include="Images\BlackCat_PSN.png" />
     <Content Include="Images\BlackCat_PSN.svg" />
@@ -109,20 +109,6 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="MySqlTest.cshtml" />
-    <Content Include="Fonts\Consolas\consola.ttf" />
-    <Content Include="Fonts\Consolas\consolab.ttf" />
-    <Content Include="Fonts\Consolas\consolai.ttf" />
-    <Content Include="Fonts\Consolas\consolaz.ttf" />
-    <Content Include="Fonts\Greg\Greg.eot" />
-    <Content Include="Fonts\Greg\Greg.TTF" />
-    <Content Include="Fonts\Greg\Greg.woff" />
-    <Content Include="Fonts\Greg\GregCaps.eot" />
-    <Content Include="Fonts\Greg\GregCaps.TTF" />
-    <Content Include="Fonts\Greg\GregCaps.woff" />
-    <Content Include="Fonts\Kongtext\Kongtext Regular.eot" />
-    <Content Include="Fonts\Kongtext\Kongtext Regular.otf" />
-    <Content Include="Fonts\Kongtext\Kongtext Regular.ttf" />
-    <Content Include="Fonts\Kongtext\Kongtext Regular.woff" />
     <Content Include="Fonts\Porscha\911v2.eot" />
     <Content Include="Fonts\Porscha\911v2.otf" />
     <Content Include="Fonts\Porscha\911v2.ttf" />

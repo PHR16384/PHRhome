@@ -44,6 +44,7 @@ function PTableCalc()
     var B = arcBlock.length;  //blocks
     var P = 7;  //periods
     var b, p, x;
+    var str;
     
     //calculate block widths:
     for (b = 0; b < B; b++) {
@@ -56,20 +57,16 @@ function PTableCalc()
 
     //set block positions:
     $("#block-s")
-        .css("left", 0)
-        .css("top", 0)
+        .css({ "left": 0, "top": 88 * 1 })
     ;
     $("#block-p")
-        .css("left", 84 * 12)
-        .css("top", 88 * 1)
+        .css({ "left": 84 * 12, "top": 88 * 1 })
     ;
     $("#block-d")
-        .css("left", 84 * 2)
-        .css("top", 88 * 3)
+        .css({ "left": 84 * 2, "top": 88 * 3 })
     ;
     $("#block-f")
-        .css("left", 84 * 2)
-        .css("top", 88 * 7 + 16)
+        .css({ "left": 84 * 2, "top": 88 * 7 + 16 })
     ;
 
     //set table width/height:
@@ -77,8 +74,29 @@ function PTableCalc()
         .width(84 * 18)
         .height(88 * 10)
     ;
-    
 
+
+    //loop through legend labels:
+    $("#Legend").children()
+        .each(function (i) {
+            $(this)
+                .prepend("<h5>" + $(this).prop("id") + "</h5>") //create a header from the node's id
+                .find("p").each(function (j) {
+                    $(this).html( $(this).prop("className") );  //similarly, copy the <p>'s id into its innerHTML
+                })
+            ;
+        })
+    ;
+
+    /*
+    var $Cat = $("#Legend").find("#Category").find("p");
+    for (x = 0; x < $Cat.size(); x++) {
+        str = $Cat.get(x).className;
+        $Cat.get(x).innerHTML = str;
+    }
+    */
+    
+    
     /*
     var nStyleIndex = -1;
     var sheet;
@@ -117,9 +135,9 @@ function PTableCalc()
         for (e = 0; e < E; e++) {
             ar$Elem[e] = $Elem.clone(); //make a duplicate of template "Test Element" DOM node
 
-            ar$Elem[e].attr("id",PTable[e].symbol);
-
             //apply the JSON data:
+            ar$Elem[e].attr("id", PTable[e].symbol);
+
             ar$Elem[e].find(".name")
                 .html(PTable[e].name)
             ;
@@ -140,13 +158,16 @@ function PTableCalc()
             ar$Elem[e].appendTo("#block-" + PTable[e].block);
         }
 
-        //reposition Helium:
-        var $He = $("#He").clone();
-        $("#He").first().css("visibility","hidden");
-        $He.prependTo("#PTable")
-            .css("left", 84 * 17)
-            .css("top", 0)
+
+        //reposition Helium & Hydrogen:
+
+        //var $He = $("#He").clone();
+        //$("#He").first().css("visibility","hidden");
+
+        $("#He").prependTo("#PTable")
+            .css({ "left": 84 * 17, "top": 0 })
         ;
+        $("#H").prependTo("#PTable");
     }
     
 }
@@ -171,7 +192,7 @@ function GotPError(jqXHR, textStatus, errorThrown) {
 //"whichState": calculates the element's matter phase (solid, liquid, gas) @ STP
 function whichState(JElem) {
     if (JElem["boiling_point K"] == "n/a" || JElem["melting_point K"] == "n/a") {
-        return;
+        return; //if boiling/melting points are unknown, return nothing
     }
 
     if (JElem["boiling_point K"] < 273) {
