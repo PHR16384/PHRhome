@@ -80,7 +80,7 @@ function PTableCalc()
     $("#Legend").children()
         .each(function (i) {
             $(this)
-                .prepend("<h5>" + $(this).prop("id") + "</h5>") //create a header from the node's id
+                .prepend("<h4>" + $(this).prop("id") + "</h4>") //create a header from the node's id
                 .find("p").each(function (j) {
                     $(this).html( $(this).prop("className") );  //similarly, copy the <p>'s id into its innerHTML
                 })
@@ -88,15 +88,6 @@ function PTableCalc()
         })
     ;
 
-    /*
-    var $Cat = $("#Legend").find("#Category").find("p");
-    for (x = 0; x < $Cat.size(); x++) {
-        str = $Cat.get(x).className;
-        $Cat.get(x).innerHTML = str;
-    }
-    */
-    
-    
     /*
     var nStyleIndex = -1;
     var sheet;
@@ -136,14 +127,17 @@ function PTableCalc()
             ar$Elem[e] = $Elem.clone(); //make a duplicate of template "Test Element" DOM node
 
             //apply the JSON data:
-            ar$Elem[e].attr("id", PTable[e].symbol);
+            ar$Elem[e]
+                .attr("id", PTable[e].symbol)   //change id to [Element Symbol]
+                .addClass( PTable[e].occurrence )  //change border colour based on "Occurrence" property
+            ;
 
             ar$Elem[e].find(".name")
                 .html(PTable[e].name)
             ;
             ar$Elem[e].find(".num")
                 .html(PTable[e].atomic_number)
-                .addClass( whichState(PTable[e]) )
+                .addClass( whichPhase(PTable[e]) )
             ;
             ar$Elem[e].find(".symbol")
                 .html(PTable[e].symbol)
@@ -164,10 +158,11 @@ function PTableCalc()
         //var $He = $("#He").clone();
         //$("#He").first().css("visibility","hidden");
 
-        $("#He").prependTo("#PTable")
+        $("#He")
+            .prependTo("#PTable")
             .css({ "left": 84 * 17, "top": 0 })
         ;
-        $("#H").prependTo("#PTable");
+        $("#H").prependTo("#PTable");   //positions to {top:0,left:0} due to CSS defs
     }
     
 }
@@ -189,8 +184,8 @@ function GotPError(jqXHR, textStatus, errorThrown) {
 }
 
 
-//"whichState": calculates the element's matter phase (solid, liquid, gas) @ STP
-function whichState(JElem) {
+//"whichPhase": calculates the element's matter phase (solid, liquid, gas) @ STP
+function whichPhase(JElem) {
     if (JElem["boiling_point K"] == "n/a" || JElem["melting_point K"] == "n/a") {
         return; //if boiling/melting points are unknown, return nothing
     }
