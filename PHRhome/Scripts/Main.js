@@ -49,7 +49,7 @@ function checkViewSize() {
 
     $WarnScr.html(W + "px W * " + H + "px H");
 
-    if (W < 1000 || H < 600) {
+    if (W < 1024 || H < 624) {
         $WarnScr.append("<br /><span class='Red'>The viewport may be too small to display this site properly.  Please resize the window, hide one or more browser toolbars, or increase your screen resolution.</span>");
     }
 }

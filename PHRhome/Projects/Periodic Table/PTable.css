@@ -3,11 +3,11 @@
 #PTable {
     /*background-color: rgba(0,0,0,0.25);*/
     /*display: -moz-box;*/
-    height: 100px;
+    min-height: 100px;
     margin: auto;
-    padding: 0;
+    /*padding: 0 16px;*/
     position: relative;
-    width: 90%;
+    width: 50%;
 }
     #PTable > div {
         display: block;
@@ -16,21 +16,51 @@
     }
 
 
+/* Legend */
+
+#Legend {
+    /*background-color: rgba(0,255,0,0.5);*/
+    height: 184px;
+    position: absolute;
+        left: 280px;
+        top: 24px;
+    width: 604px;
+}
+    /* First-level labeled blocks in legend */
+    #Legend > div {
+        background-color: rgba(32,40,48,0.75);
+        display: inline-block;
+        padding: 2px 8px;
+        position: absolute;
+    }
+        /* items within each legend block */
+        #Legend > div > p {
+            box-shadow: 0 0 4px 0 black;
+            cursor: pointer;
+            display: inline-block;
+            /*font-size: 0.75em;*/
+            /*font-style: italic;*/
+            font-weight: bold;
+            padding: 0.1em 0.25em;
+            text-shadow: 0 0 2px black;
+        }
+
+
 /* "Block" classes: */
 
-.s {
+.S {
     background-color: rgba(255,0,0,0.5);
 }
-.p {
+.P {
     background-color: rgba(0,128,255,0.5);
 }
-.d {
+.D {
     background-color: rgba(128,255,0,0.5);
 }
-.f {
+.F {
     background-color: rgba(0,255,255,0.5);
 }
-.g {
+.G {
     background-color: rgba(255,128,0,0.5);
 }
 
@@ -56,12 +86,19 @@
     position: relative;
     text-overflow: ellipsis;
     transition: all .25s;
+        -moz-transition: all .25s;
+        -ms-transition: all .25s;
+        -o-transition: all .25s;
+        -webkit-transition: all .25s;
     width: 76px;
 }
     .Element:hover {
-        z-index: 1000;
         transform: scale(1.3);
-        -webkit-transform: scale(1.3); /* Chrome is the only one where "transform" isn't implemented yet */
+            -moz-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            -o-transform: scale(1.3);
+            -webkit-transform: scale(1.3);  /* Chrome (+Safari?) is the only one where "transform" isn't implemented yet */
+        z-index: 1000;
     }
 
 .name {
@@ -100,42 +137,12 @@
 }
 
 
-/* Legend */
-
-#Legend {
-    /*background-color: rgba(0,255,0,0.5);*/
-    height: 192px;
-    position: absolute;
-        left: 280px;
-        top: 24px;
-    width: 604px;
-}
-    /* First-level labeled blocks in legend */
-    #Legend > div {
-        background-color: rgba(32,40,48,0.75);
-        display: inline-block;
-        padding: 2px 8px;
-        position: absolute;
-    }
-        /* items within each legend block */
-        #Legend > div > p {
-            box-shadow: 0 0 4px 0 black;
-            cursor: pointer;
-            display: inline-block;
-            /*font-size: 0.75em;*/
-            /*font-style: italic;*/
-            font-weight: bold;
-            padding: 0.1em 0.25em;
-            text-shadow: 0 0 2px black;
-        }
-
-
 /* "Group" classes: */
 
 #Category {
     left: 0;
     top: 0;
-    max-width: 60%;
+    width: 360px;
 }
     
     .Unknown {
@@ -200,7 +207,7 @@
 #Phase {
     right: 0;
     top: 0;
-    width: 33%;
+    width: 208px;
 }
     .Solid {
         background-color: rgba(0,0,0,0.5) !important;
@@ -216,7 +223,7 @@
 #Occurrence {
     right: 0;
     bottom: 0;
-    width: 33%;
+    width: 208px;
 }
     .Primordial_nuclide {
         border: 1px solid rgba(0,255,0,0.5) !important;

@@ -1,10 +1,14 @@
 ﻿var sStyle = "PTable.css";
 
+// Set global Element W/H constants:
+var ELEM_H = 88;
+var ELEM_W = 84;
+
 
 $(document).ready(function ()
 {
     AddStyle();
-    PTableCalc();
+    BuildPTable();
 });
 
 
@@ -27,15 +31,15 @@ function AddStyle()
 }
 
 
-function PTableCalc()
+function BuildPTable()
 {
     /*
-        IDEA:  Since the elements are grouped into blocks, append them as DOM blocks
+        IDEA:  Since the elements are grouped into Blocks, append them as <div>s.  Then I can position them wherever I want
     */
     
     var $Elem = $("#testElem");
 
-    var arcBlock = ["s", "p", "d", "f", "g"];
+    var arcBlock = ["S", "P", "D", "F", "G"];
     var ar$Block = new Array(); //an array to be filled with PT blocks
     var ar$Elem = new Array();  //to be filled with the Elements
     
@@ -46,33 +50,38 @@ function PTableCalc()
     var b, p, x;
     var str;
     
-    //calculate block widths:
+    //calculate Block widths:
     for (b = 0; b < B; b++) {
         arnBlock[b] = b * 4 + 2;    //2, 6, 10, 14, 18, ...
 
-        ar$Block[b] = $("<div id='block-" + arcBlock[b] + "'></div>");
-        ar$Block[b].width( arnBlock[b] * 84 );
+        ar$Block[b] = $("<div id='Block-" + arcBlock[b] + "'></div>");
+        ar$Block[b].width( arnBlock[b] * ELEM_W );
         ar$Block[b].appendTo("#PTable");
     }
 
-    //set block positions:
-    $("#block-s")
-        .css({ "left": 0, "top": 88 * 1 })
+    //set Block positions:
+    $("#Block-S")
+        .css({ "left": ELEM_W * 0, "top": ELEM_H * 1 })
     ;
-    $("#block-p")
-        .css({ "left": 84 * 12, "top": 88 * 1 })
+    $("#Block-P")
+        .css({ "left": ELEM_W * 12, "top": ELEM_H * 1 })
     ;
-    $("#block-d")
-        .css({ "left": 84 * 2, "top": 88 * 3 })
+    $("#Block-D")
+        .css({ "left": ELEM_W * 2, "top": ELEM_H * 3 })
     ;
-    $("#block-f")
-        .css({ "left": 84 * 2, "top": 88 * 7 + 16 })
+    $("#Block-F")
+        .css({ "left": ELEM_W * 2, "top": ELEM_H * 7 + 16 })
     ;
 
-    //set table width/height:
+    //set table width/height/etc.:
     $("#PTable")
-        .width(84 * 18)
-        .height(88 * 10)
+        .width(ELEM_W * 18)
+        .height(ELEM_H * 10)
+        /*
+        // doesn't help for right edge w/ visible h-scrollbar:
+        .closest("section")
+            .css({ "padding-left": "16px", "padding-right": "16px" })
+        */
     ;
 
 
@@ -149,7 +158,7 @@ function PTableCalc()
             //
 
             //ar$Elem[e].appendTo("#PTable");
-            ar$Elem[e].appendTo("#block-" + PTable[e].block);
+            ar$Elem[e].appendTo("#Block-" + PTable[e].block);
         }
 
 
@@ -160,7 +169,7 @@ function PTableCalc()
 
         $("#He")
             .prependTo("#PTable")
-            .css({ "left": 84 * 17, "top": 0 })
+            .css({ "left": ELEM_W * 17, "top": ELEM_H * 0 })
         ;
         $("#H").prependTo("#PTable");   //positions to {top:0,left:0} due to CSS defs
     }
