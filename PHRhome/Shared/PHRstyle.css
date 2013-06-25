@@ -82,7 +82,7 @@
 html {
     background: url("../Images/bg.gif") repeat rgb(32,40,48);
     color: rgb(255,255,255);
-    font: normal 16px "Console";
+    font: normal 16px "Inconsolata", monospace;
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     max-height: 100%;
