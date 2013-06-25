@@ -86,12 +86,16 @@ function BuildPTable()
 
 
     //loop through legend labels:
-    $("#Legend").children()
+    $("#Legend").find("div")
         .each(function (i) {
             $(this)
-                .prepend("<h4>" + $(this).prop("id") + "</h4>") //create a header from the node's id
+                .prepend("<h4>" + $(this).prop("id") + "</h4>") //create a header from the <div> id
                 .find("p").each(function (j) {
-                    $(this).html( $(this).prop("className") );  //similarly, copy the <p>'s id into its innerHTML
+                    str = $(this).prop("className");
+                    $(this).html(str);    //similarly, copy each <p>'s CSS class into its innerHTML
+                    if (str != "Unknown") {
+                        //$(this).on("click", { "URL": str }, openWiki);   //open the name of the class in Wikipedia
+                    }
                 })
             ;
         })
@@ -196,7 +200,7 @@ function GotPError(jqXHR, textStatus, errorThrown) {
 //"whichPhase": calculates the element's matter phase (solid, liquid, gas) @ STP
 function whichPhase(JElem) {
     if (JElem["boiling_point K"] == "n/a" || JElem["melting_point K"] == "n/a") {
-        return; //if boiling/melting points are unknown, return nothing
+        return "Unknown_Phase"; //if boiling/melting points are unknown, return nothing
     }
 
     if (JElem["boiling_point K"] < 273) {
@@ -208,5 +212,11 @@ function whichPhase(JElem) {
     else {
         return "Solid";
     }
+}
+
+
+function openWiki(event) {
+    //event.stopPropogation();
+    window.open("http://en.wikipedia.org/wiki/" + event.data.URL, "_self");
 }
 

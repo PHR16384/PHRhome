@@ -7,7 +7,7 @@
     //stuff to run repeatedly:
     setInterval(function () {
         getTime();
-        checkViewSize();
+        //checkViewSize();
     }, 143);
 });
 
@@ -18,7 +18,7 @@ function getTime() {
     //store jQuery object-grabbers into vars starting with "$":
     var $Time = $("#timespan");
     
-    var MONTH = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    var MONTH = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
     var Today = new Date();
 

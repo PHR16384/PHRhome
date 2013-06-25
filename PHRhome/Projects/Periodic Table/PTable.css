@@ -20,11 +20,11 @@
 
 #Legend {
     /*background-color: rgba(0,255,0,0.5);*/
-    height: 184px;
+    height: 216px;
     position: absolute;
-        left: 280px;
+        left: 272px;
         top: 24px;
-    width: 604px;
+    width: 608px;
 }
     /* First-level labeled blocks in legend */
     #Legend > div {
@@ -98,7 +98,7 @@
             -ms-transform: scale(1.3);
             -o-transform: scale(1.3);
             -webkit-transform: scale(1.3);  /* Chrome (+Safari?) is the only one where "transform" isn't implemented yet */
-        z-index: 1000;
+        z-index: 500;
     }
 
 .name {
@@ -111,7 +111,7 @@
     text-shadow: 0 0 2px black;
 }
 .num {
-    background-color: rgba(192,192,192,0.5);
+    /*background-color: rgba(192,192,192,0.5);*/
     /*display: inline-block;*/
     font-size: 0.9em;
     margin-bottom: -1em;
@@ -217,6 +217,9 @@
     }
     .Gas {
         background-color: rgba(255,0,0,0.5) !important;
+    }
+    .Unknown_Phase {
+        background-color: rgba(192,192,192,0.5) !important;
     }
 
 

@@ -77,13 +77,13 @@
     <Content Include="Fonts\Consolas\consola.eot" />
     <Content Include="Fonts\Consolas\consola.svg" />
     <Content Include="Fonts\Consolas\consola.ttf" />
-    <Content Include="Fonts\fonts.css" />
+    <Content Include="Fonts\Font.css" />
     <Content Include="Fonts\Consolas\consola.otf" />
     <Content Include="Fonts\Consolas\consola.woff" />
-    <None Include="Scripts\jquery-2.0.1.intellisense.js" />
     <Content Include="Images\favicon.ico" />
-    <Content Include="Scripts\jquery-2.0.1.js" />
-    <Content Include="Scripts\jquery-2.0.1.min.js" />
+    <None Include="Scripts\jquery-2.0.2.intellisense.js" />
+    <Content Include="Scripts\jquery-2.0.2.js" />
+    <Content Include="Scripts\jquery-2.0.2.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Shared\html5reset-1.6.1.css" />
     <Content Include="Fonts\Porscha\911v2.svg" />
@@ -117,7 +117,7 @@
     <Content Include="Projects\Periodic Table\elements.json" />
     <Content Include="Projects\Periodic Table\periodictabledump3.csv" />
     <Content Include="Projects\Periodic Table\PTable.cshtml" />
-    <Content Include="Scripts\jquery-2.0.1.min.map" />
+    <Content Include="Scripts\jquery-2.0.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
