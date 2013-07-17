@@ -167,10 +167,6 @@ function BuildPTable()
 
 
         //reposition Helium & Hydrogen:
-
-        //var $He = $("#He").clone();
-        //$("#He").first().css("visibility","hidden");
-
         $("#He")
             .prependTo("#PTable")
             .css({ "left": ELEM_W * 17, "top": ELEM_H * 0 })

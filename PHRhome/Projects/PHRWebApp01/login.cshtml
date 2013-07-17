@@ -1,0 +1,59 @@
+﻿@using System.Collections.Specialized;
+
+@{
+    //Federated login
+
+    string sClientID = "122446464299.apps.googleusercontent.com";
+    string sRedirectURL = Request.Url.ToString();   //first, store this page's location
+
+    int N = sRedirectURL.IndexOf('?');
+    if( N >= 0 ){
+        sRedirectURL = sRedirectURL.Remove(N);    //delete any queries attached to the URI
+    }
+    
+    
+    WebClient Client = new WebClient();
+    try
+    {
+        <p>@sRedirectURL</p>
+        
+        if (Request["code"] == null)
+        {
+            //then we are arriving here for the first time so redirect to google
+            string sAuthUrl = "https://accounts.google.com/o/oauth2/auth?redirect_uri={0}&client_id={1}&scope=https://www.googleapis.com/auth/userinfo.profile&response_type=code"; //&max_auth_age=9000
+            string sAuth = String.Format(sAuthUrl, sRedirectURL, sClientID);
+            Response.Redirect(sAuth);
+        }
+        else
+        {
+            // then google has redirected to us so build up query for 2nd phase of authentication
+            NameValueCollection pairs =  new NameValueCollection()
+            {
+                { "grant_type", "authorization_code" },
+                { "client_id", sClientID },
+                { "client_secret", "QWcTeefNu0TBN9cOqJoTWWZ1" },
+                { "code", Request["code"] },
+                { "redirect_uri", sRedirectURL }
+            };
+            byte[] response = Client.UploadValues("https://accounts.google.com/o/oauth2/token", pairs);
+            String result = System.Text.Encoding.UTF8.GetString(response);
+            var oResult = Json.Decode(result);
+            // need access token from this
+            String sUserInfoUrl = "https://www.googleapis.com/oauth2/v1/userinfo?alt=json&access_token={0}";
+            String sUserInfo = Client.DownloadString(String.Format(sUserInfoUrl, oResult.access_token));
+            // now we have the user info of the authenticated user ... name and id
+            var oUserInfo = Json.Decode(sUserInfo);
+            <p>hello @oUserInfo.name</p>
+            <p>@result</p>
+            <p>@sUserInfo</p>
+        }
+    }
+    catch(Exception e)
+    {
+        <p>@e.Message</p>
+    }
+    finally
+    {
+        Client.Dispose();
+    }
+}

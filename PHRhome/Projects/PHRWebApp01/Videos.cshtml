@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Videos Test</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+        <script src="JS/jquery-2.0.0.min.js"></script>
+    </head>
+    
+    <body>
+        
+        @{
+            string sURL = "http://gdata.youtube.com/feeds/api/users/Niichts/uploads?alt=json&q=";
+            WebClient Client = new WebClient();
+            
+            try{
+                string sResponse = Client.DownloadString(sURL);
+                var oResult = Json.Decode(sResponse);
+                //<p>@sResponse</p>
+                
+                if(oResult.feed.entry != null){
+                    foreach(var oEntry in oResult.feed.entry){
+                        <hr />
+                        <h3><a href="@oEntry.link[0].href">@oEntry.title["$t"]</a></h3>    //"$" is not a valid C# variable name, so use oEntry.vary["$othervar"].yetanothervar
+                        <p>
+                            @{
+                               foreach(var oImg in oEntry["media$group"]["media$thumbnail"]){
+                                   <img src="@oImg.url" />
+                               }
+                            }
+                        </p>
+                        <p>@Html.Raw(oEntry.content["$t"])</p>
+                    }
+                }
+            }
+            catch(Exception e){
+                <p>@e.Message</p>
+            }
+            finally{
+                Client.Dispose();
+            }
+        }
+        
+    </body>
+    
+</html>

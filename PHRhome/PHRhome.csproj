@@ -143,11 +143,40 @@
     <Content Include="Fonts\Consolas\consola.otf" />
     <Content Include="Fonts\Consolas\consola.woff" />
     <Content Include="Images\favicon.ico" />
+    <Content Include="Images\noscript.png" />
+    <Content Include="Images\y_u_no.svg" />
+    <Content Include="Projects\Periodic Table\index.cshtml" />
+    <Content Include="Projects\PHRWebApp01\ContentEditorExample.cshtml" />
+    <Content Include="Projects\PHRWebApp01\DBReader.cshtml" />
+    <Content Include="Projects\PHRWebApp01\Google APIs Console.URL" />
+    <Content Include="Projects\PHRWebApp01\GoogleSearch.cshtml" />
+    <Content Include="Projects\PHRWebApp01\index.cshtml" />
+    <Content Include="Projects\PHRWebApp01\JSON Formatter &amp; Validator.URL" />
+    <Content Include="Projects\PHRWebApp01\login.cshtml" />
+    <Content Include="Projects\PHRWebApp01\Multipage.cshtml" />
+    <Content Include="Projects\PHRWebApp01\Pixsy Command Your Internet.URL" />
+    <Content Include="Projects\PHRWebApp01\Troy Hunt 10 lessons for uncultured web developers.URL" />
+    <Content Include="Projects\PHRWebApp01\Videos.cshtml" />
+    <Content Include="Projects\PHRWebApp01\Web.config" />
+    <Content Include="Projects\PHRWebApp01\XMLRead.cshtml" />
+    <Content Include="Projects\PHRWebApp01\YouTube Data API - Demo Beta.URL" />
+    <Content Include="Projects\PHRWebApp01\YToutput.json" />
+    <Content Include="Projects\PHRWebApp01\_foot.cshtml" />
+    <Content Include="Projects\PHRWebApp01\_head.cshtml" />
+    <Content Include="Fonts\Consolas\consolab.ttf" />
+    <Content Include="Fonts\Consolas\consolai.ttf" />
+    <Content Include="Fonts\Consolas\consolaz.ttf" />
     <None Include="Scripts\jquery-2.0.2.intellisense.js" />
+    <Content Include="Projects\PHRWebApp01\JS\jquery-2.0.0.min.js" />
+    <Content Include="Projects\PHRWebApp01\lib\mysql.data.dll" />
+    <Content Include="Projects\PHRWebApp01\lib\mysql.data.entity.dll" />
+    <Content Include="Projects\PHRWebApp01\lib\mysql.visualstudio.dll" />
+    <Content Include="Projects\PHRWebApp01\lib\mysql.web.dll" />
+    <Content Include="Projects\PHRWebApp01\StyleSheet.css" />
+    <Content Include="Projects\PHRWebApp01\Twitter.rss.xml" />
+    <Content Include="Projects\PHRWebApp01\Twitter.xml" />
     <Content Include="Scripts\jquery-2.0.2.js" />
     <Content Include="Scripts\jquery-2.0.2.min.js" />
-    <Content Include="Scripts\jquery-ui-1.10.3.js" />
-    <Content Include="Scripts\jquery-ui-1.10.3.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Shared\html5reset-1.6.1.css" />
     <Content Include="Fonts\Porscha\911v2.svg" />
@@ -168,6 +197,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Projects\PHRWebApp01\DBRead.cs" />
+    <Compile Include="Projects\PHRWebApp01\Demo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -179,8 +210,6 @@
     <Content Include="Fonts\Porscha\911v2.woff" />
     <Content Include="_nav.cshtml" />
     <Content Include="Projects\Periodic Table\elements.json" />
-    <Content Include="Projects\Periodic Table\periodictabledump3.csv" />
-    <Content Include="Projects\Periodic Table\PTable.cshtml" />
     <Content Include="Scripts\jquery-2.0.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

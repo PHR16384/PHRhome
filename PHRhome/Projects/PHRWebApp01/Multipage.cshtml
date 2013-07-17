@@ -1,0 +1,57 @@
+﻿@using System.Configuration;
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Multipage Test</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+        <script src="JS/jquery-2.0.0.min.js"></script>
+    </head>
+    
+    <body>
+        
+        @RenderPage("_head.cshtml")
+        
+        <article id="main">
+            @{
+                string sURL = "https://www.googleapis.com/customsearch/v1?key={0}&cx={1}&alt=json&q={2}";
+                string sKey = "AIzaSyC71D25GZxgwolKpsbRSaeqsK2vwPqa2-c";
+                string sCx = "016825285787263317797:fvpmo6s_f4y";
+                
+                WebClient Client = new WebClient();
+                
+                try
+                {
+                    string sResponse = Client.DownloadString( String.Format(sURL, sKey, sCx, Request["q"]) );
+                    var oResults = Json.Decode(sResponse);  //dynamic var, resolved at runtime
+                    
+                    <h2>Search results for &ldquo;@oResults.queries.request[0].searchTerms&rdquo;:</h2>
+                    if( oResults.items != null ){
+                        foreach(var oItem in oResults.items){
+                            <hr />
+                            <h3><a href="@oItem.link">@oItem.title</a></h3>
+                            <p>@Html.Raw(oItem.htmlSnippet)</p>
+                        }
+                    }
+                    else {
+                        <p>(No results.)</p>
+                    }
+                }
+                catch(Exception e)
+                {
+                    <p>@e.Message</p>
+                }
+                finally
+                {
+                    Client.Dispose();
+                }
+            }
+        </article>
+        
+        @RenderPage("_foot.cshtml")
+        
+    </body>
+    
+</html>

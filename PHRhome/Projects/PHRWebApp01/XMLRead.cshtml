@@ -1,0 +1,55 @@
+﻿@using System.Xml.Linq;
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>XML Reader Example</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+        <script src="JS/jquery-2.0.0.min.js"></script>
+    </head>
+    
+    <body>
+        
+        @{
+            //string sURL = "https://api.twitter.com/1/statuses/user_timeline.{0}?screen_name={1}";
+            string sURL = "file:///C:/Users/T.J/Dropbox/GitHub/PHRWebApp01/Twitter.xml";    //online file has 150 req/hour limit
+            string sType = "xml";
+            string sUser = "neiltyson";
+            
+            try
+            {
+                XDocument xmlDoc = XDocument.Load(sURL); //XDocument.Load( String.Format(sURL,sType,sUser) );
+                XElement xmlUser = xmlDoc.Element("statuses").Element("status").Element("user");
+                string sProfileImg = xmlUser.Element("profile_image_url").Value;
+
+                int N = sProfileImg.LastIndexOf("normal");
+                sProfileImg = sProfileImg.Remove(N, 6);
+                sProfileImg = sProfileImg.Insert(N, "bigger");
+                
+                <h1>@xmlUser.Element("name").Value</h1>
+                <p><img src="@sProfileImg" /></p>
+                <p>@xmlUser.Element("description").Value</p>
+                <hr />
+                
+                <table>
+                    @foreach(XElement xE in xmlDoc.Descendants("status")){
+                        <tr>
+                            <td>
+                                <h6 class="date">@xE.Element("created_at").Value</h6>
+                                <p>@Html.Raw( xE.Element("text").Value )</p>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            }
+            catch(Exception e)
+            {
+                <p>@e.Message</p>
+            }
+        }
+        
+    </body>
+    
+</html>

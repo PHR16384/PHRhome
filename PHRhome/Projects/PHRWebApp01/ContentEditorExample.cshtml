@@ -1,0 +1,50 @@
+﻿@using MySql.Data.MySqlClient;
+@using MySql.Data;
+
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Content Editor Example</title>
+
+        <meta charset="utf-8" />
+        
+        <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+        <style type="text/css">
+            textarea {
+                height: 100px;
+                width: 100%;
+            }
+        </style>
+    </head>
+    
+    
+    <body>
+        
+        <h1>Content Editor Example</h1>
+        
+        @{
+            DBRead DBR = new DBRead("","test");
+            MySqlDataReader Results;
+            int nCount = 0, x;
+            
+            Results = DBR.Print("Paragraphs","text");
+
+            while (Results.Read())
+            {
+                <p class="edit">@Html.Raw(Results[1].ToString())</p>
+                nCount++;
+            }
+            Console.WriteLine( nCount + " rows found." );
+        }
+        
+        <!--
+        <button id="btnEdit">Edit Text</button>
+        <p class="edit">The contents of this paragraph are <b>editable</b>.  Press the "Edit" button to add, change and remove raw text, as well as HTML tags, to/from this paragraph.</p>
+        <p class="edit">This paragraph is also editable.</p>
+        -->
+        
+    </body>
+    
+</html>

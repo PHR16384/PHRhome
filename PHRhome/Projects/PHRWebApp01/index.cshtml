@@ -1,0 +1,73 @@
+﻿@using System.Data;
+@using System.Configuration;
+@using System;
+
+@using MySql.Data.MySqlClient;
+@using MySql.Data;
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>First Deployed Page</title>
+        <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+        <script src="JS/jquery-2.0.0.min.js"></script>
+    </head>
+    
+    <body>
+        
+        <h1>First Deployed Page</h1>
+        <h2 id="JSoff">WARNING: JavaScript disabled on this page.  Our scripts are harmless, we promise.  :D</h2>
+        <p>Current datetime is: &nbsp;<span id="time">@DateTime.UtcNow</span></p>
+
+        <p><a href="DBReader.cshtml">Goto DB Reader</a></p>
+        
+    </body>
+    
+    <script>
+        $("#JSoff").html("");   //remove warning if JS enabled
+
+        self.setInterval(function () { GetDate() }, 100);
+        
+        function GetDate() {
+            var DNow = new Date();
+            var DAY, MONTH, YEAR, Hour, Min, Sec;
+            
+            YEAR = DNow.getUTCFullYear().toString();
+            MONTH = DNow.getUTCMonth().toString();
+            DAY = DNow.getUTCDay().toString();
+            
+            while (YEAR.length < 4) {
+                YEAR = "0" + YEAR;
+            }
+            while (MONTH.length < 2) {
+                MONTH = "0" + MONTH;
+            }
+            while (DAY.length < 2) {
+                DAY = "0" + DAY;
+            }
+            
+            Hour = DNow.getUTCHours().toString();
+            Min = DNow.getUTCMinutes().toString();
+            Sec = DNow.getUTCSeconds().toString();
+            while (Hour.length < 2) {
+                Hour = "0" + Hour;
+            }
+            while (Min.length < 2) {
+                Min = "0" + Min;
+            }
+            while (Sec.length < 2) {
+                Sec = "0" + Sec;
+            }
+
+            $("#time").html(YEAR + "/" + MONTH + "/" + DAY + " " + Hour + ":" + Min + ":" + Sec);
+        }
+        
+        function ZeroAppend(str, nWidth) {
+            while (str.length < nWidth) {
+                str = '0' + str;
+            }
+        }
+    </script>
+    
+</html>

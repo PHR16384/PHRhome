@@ -1,0 +1,93 @@
+﻿@using System;
+@using System.Data;
+
+@using MySql.Data.MySqlClient;
+@using MySql.Data;
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Plain HTML Example</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+</head>
+
+
+<body>
+    
+    <h1>Database Reader Example</h1>
+    <p>@DateTime.UtcNow<br /><br /></p>
+
+    @{
+        MySqlConnection Connect = new MySqlConnection("server=fc8361a1-8899-4b69-bb22-a1b600d5b3ad.mysql.sequelizer.com;database=dbfc8361a188994b69bb22a1b600d5b3ad;uid=dfohpvkhwtmgukwi;pwd=dtsbJowzxmDkhkEDAvzPG5mCbDvWtJd8qgoLc7f2Xh3yuokQo7VzanUhgWae2GfW; Convert Zero Datetime=True;");
+        MySqlCommand Command;
+        MySqlDataReader Results;
+        string sSQL, sQuery="", sSort="", sName="";
+        ulong nResults;
+        int x;
+        
+        try
+        {
+            Connect.Open();
+            <p>Database successfully opened.<br /><br /></p>
+            <form id="frmSearch" name="frmSearch" method="get">
+                <label for="txtSearch"><b>SEARCH BY NAME:</b>&nbsp;</label>
+                <input id="txtSearch" name="txtSearch" type="text" />
+            </form>
+            
+            sQuery = Request["txtSearch"];
+            if( sQuery == null )
+            {
+                sQuery = "";
+            }
+            
+            sSQL = "SELECT * FROM ExampleTable WHERE someText LIKE CONCAT('%', @query, '%') ORDER BY '';";   //parameter token averts injections and errors with quotes
+            Command = new MySqlCommand(sSQL, Connect);
+            Command.Parameters.AddWithValue("query", sQuery);
+            Command.Parameters.AddWithValue("sort", sSort);
+            Results = Command.ExecuteReader();
+            nResults = 0;
+            
+            <p>&nbsp;</p>
+            
+            <form method="get">
+            <table id="DBResults">
+                <tr>
+                    @for (x = 0; x < Results.FieldCount; x++){
+                        sName = Results.GetName(x);
+                        <th>
+                            <input type="radio" id="@sName" name="fieldNames" />
+                            <label for="@sName">@sName</label>
+                        </th>
+                    }
+                </tr>
+                
+                @while (Results.Read()){
+                    <tr>
+                        @for (x = 0; x < Results.FieldCount; x++)
+                        {
+                            <td>@Results[x]</td>
+                        }
+                    </tr>
+                    nResults++;
+                }
+
+                <p>@nResults rows found; Sorted by &ldquo;@sSort&rdquo;</p>
+            </table>
+            </form>
+        }
+        catch (Exception e)
+        {
+            <p>@e.Message;</p>
+        }
+        finally
+        {
+            Connect.Close();
+            <p><br /><br /></p>
+            <p>Database successfully closed.</p>
+        }
+    }
+    
+</body>
+</html>

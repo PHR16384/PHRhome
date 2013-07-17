@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+  <status>
+    <created_at>Mon May 06 15:49:05 +0000 2013</created_at>
+    <id>331435455746809857</id>
+    <text>JUST POSTED: StarTalk, Cosmic Queries Edition &quot;Asteroids Comets &amp;amp; Meteors&quot; w/@ChuckNiceComic. iTunes &amp;amp; http://t.co/AnC8o6Q2lU</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>92</retweet_count>
+    <favorite_count>68</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Mon May 06 00:16:23 +0000 2013</created_at>
+    <id>331200734840385537</id>
+    <text>If butterflies were in charge, I wonder if they'd capture humans, put us on display, and admire our beauty &amp;amp; our differences?</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>3341</retweet_count>
+    <favorite_count>1692</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Sun May 05 20:16:59 +0000 2013</created_at>
+    <id>331140487396343810</id>
+    <text>.@ChrisBerghoff: How do you define the difference between education &amp;amp; school? // I care more for ideas than for definitions.</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>621</retweet_count>
+    <favorite_count>457</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Sat May 04 15:50:12 +0000 2013</created_at>
+    <id>330710962267095041</id>
+    <text>Try as I might, I cannot resist this geek-laden, lisp-inducing, annual utterance:  &quot;May the fourth be with you.&quot;</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>4094</retweet_count>
+    <favorite_count>1852</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Fri May 03 16:18:53 +0000 2013</created_at>
+    <id>330355795319476224</id>
+    <text>Oh, and, want to learn a Random Space Fact? Try @RandomSpaceFact. They're random. They're about space. And they're facts.</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>581</retweet_count>
+    <favorite_count>400</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Fri May 03 16:08:13 +0000 2013</created_at>
+    <id>330353107567521792</id>
+    <text>I love the universe, and all, but these folks just won't shut up about it: @KimberlyKowal @WhitNutt @StarStryder @elakdawalla</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>78</retweet_count>
+    <favorite_count>126</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Thu May 02 14:24:41 +0000 2013</created_at>
+    <id>329964666468044800</id>
+    <text>Space fans, like @TeamPreach, know that where there is no up or down, car license plates can do this: http://t.co/tjcrNbO7HJ</text>
+    <source>web</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>373</retweet_count>
+    <favorite_count>426</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Wed May 01 19:17:15 +0000 2013</created_at>
+    <id>329675906434101248</id>
+    <text>just to clarify: Batman is not the brains behind his powers. Yet IronMan is the brains behind his. IronMan wins the cagematch</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>3139</retweet_count>
+    <favorite_count>1620</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Tue Apr 30 22:34:01 +0000 2013</created_at>
+    <id>329363035762327552</id>
+    <text>Iron Man -  A superhero whose super powers derive entirely from his own intellect -- a mastery of physics &amp;amp; engineering.</text>
+    <source>&lt;a href=&quot;http://twitter.com/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>4894</retweet_count>
+    <favorite_count>3219</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Tue Apr 30 16:05:52 +0000 2013</created_at>
+    <id>329265354918465536</id>
+    <text>Not that anybody asked, but I object to religion in science classrooms not because it's religion but because it's not science</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>10644</retweet_count>
+    <favorite_count>6123</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Mon Apr 29 17:37:42 +0000 2013</created_at>
+    <id>328926075616886784</id>
+    <text>JUST POSTED: On @StarTalkRadio &#8220;Eureka! Asteroid Mining&#8221; w/ @PeterDiamandis [Audio: 40min] on iTunes &amp;amp; http://t.co/HxVOo3cVtJ</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <possibly_sensitive>false</possibly_sensitive>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>99</retweet_count>
+    <favorite_count>79</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Thu Apr 25 02:52:58 +0000 2013</created_at>
+    <id>327253876669575168</id>
+    <text>Hmm. My daughter's 950-page AP text &quot;American History: A Survey&quot; (McGrawHill, 2003) devotes 1.5 pages to the US Space Program</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>1409</retweet_count>
+    <favorite_count>1142</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Wed Apr 24 13:29:15 +0000 2013</created_at>
+    <id>327051611161640961</id>
+    <text>.@JakeGunst: There's piles of not dead bodies everywhere. // Yup. Journalists hardly ever write about not dead bodies.</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>431</retweet_count>
+    <favorite_count>370</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Wed Apr 24 13:24:34 +0000 2013</created_at>
+    <id>327050435355635712</id>
+    <text>I wonder how many people are not dead by using GPS instead of fumbling with a folded map on the steering wheel while driving.</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>1475</retweet_count>
+    <favorite_count>814</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Sun Apr 21 20:02:18 +0000 2013</created_at>
+    <id>326063362666553344</id>
+    <text>Watching on the FX network the film &quot;2012&quot; in which 6-billion people die. Was prepared: the rating warned of &quot;mild violence&quot;</text>
+    <source>&lt;a href=&quot;http://twitter.com/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>1848</retweet_count>
+    <favorite_count>1343</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Thu Apr 18 02:25:12 +0000 2013</created_at>
+    <id>324710171584651264</id>
+    <text>There's no crime in being ignorant. Problems arise when people who  don't know they're ignorant rise to power.</text>
+    <source>&lt;a href=&quot;http://twitter.com/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>11181</retweet_count>
+    <favorite_count>4505</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Wed Apr 17 15:43:13 +0000 2013</created_at>
+    <id>324548609905418242</id>
+    <text>Even More #HouseholdMysteries: Pens that disappear even if you don't budge. One brightness burns out within a three-way bulb.</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>171</retweet_count>
+    <favorite_count>156</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Wed Apr 17 15:37:24 +0000 2013</created_at>
+    <id>324547147284500481</id>
+    <text>@LunchHam The Sun is 1/2 of 1% as bright at Jupiter than at Mercury. But Jupiter is 300x bigger. All told, it receives 1.5x the Sun's energy</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>177</retweet_count>
+    <favorite_count>107</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Wed Apr 17 15:35:24 +0000 2013</created_at>
+    <id>324546645624770561</id>
+    <text>Other Household Mysteries: The Refrigerator light. Jellied toast falling face-down. The taste of OrangeJuice after toothpaste</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>693</retweet_count>
+    <favorite_count>491</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+  <status>
+    <created_at>Wed Apr 17 15:26:05 +0000 2013</created_at>
+    <id>324544299138170881</id>
+    <text>.@solaana: Why does gravity cease to function when removing ketchup from a bottle? // The universe brims with mysteries.</text>
+    <source>&lt;a href=&quot;http://www.tweetdeck.com&quot; rel=&quot;nofollow&quot;&gt;TweetDeck&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+    <user>
+      <id>19725644</id>
+      <name>Neil deGrasse Tyson</name>
+      <screen_name>neiltyson</screen_name>
+      <location>New York City</location>
+      <profile_image_url>http://a0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url>
+      <profile_image_url_https>https://si0.twimg.com/profile_images/74188698/NeilTysonOriginsA-Crop_normal.jpg</profile_image_url_https>
+      <url>http://www.haydenplanetarium.org/tyson/</url>
+      <description>Astrophysicist, Am. Museum of Natural History.  Author: Space Chronicles, Pluto Files, Inexplicable Universe [Video], Host: StarTalk Radio http://t.co/0DbxO8jk</description>
+      <protected>false</protected>
+      <followers_count>1210479</followers_count>
+      <profile_background_color>DBE9ED</profile_background_color>
+      <profile_text_color>333333</profile_text_color>
+      <profile_link_color>CC3366</profile_link_color>
+      <profile_sidebar_fill_color>E6F6F9</profile_sidebar_fill_color>
+      <profile_sidebar_border_color>DBE9ED</profile_sidebar_border_color>
+      <friends_count>84</friends_count>
+      <created_at>Thu Jan 29 18:40:26 +0000 2009</created_at>
+      <favourites_count>5</favourites_count>
+      <utc_offset>-18000</utc_offset>
+      <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+      <profile_background_image_url>http://a0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url>
+      <profile_background_image_url_https>https://si0.twimg.com/profile_background_images/67395299/eagle_kp09.jpg</profile_background_image_url_https>
+      <profile_background_tile>false</profile_background_tile>
+      <profile_use_background_image>true</profile_use_background_image>
+      <geo_enabled>false</geo_enabled>
+      <verified>true</verified>
+      <statuses_count>3246</statuses_count>
+      <lang>en</lang>
+      <contributors_enabled>false</contributors_enabled>
+      <is_translator>false</is_translator>
+      <listed_count>20531</listed_count>
+      <default_profile>false</default_profile>
+      <default_profile_image>false</default_profile_image>
+      <following></following>
+      <follow_request_sent></follow_request_sent>
+      <notifications></notifications>
+    </user>
+    <geo/>
+    <coordinates/>
+    <place/>
+    <contributors/>
+    <retweet_count>1638</retweet_count>
+    <favorite_count>927</favorite_count>
+    <favorited>false</favorited>
+    <retweeted>false</retweeted>
+  </status>
+</statuses>
